@@ -1,3 +1,3 @@
 # myRepository
-Project in ShBD
+Project in ShBD.
 Orlov Roman

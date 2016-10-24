@@ -7,7 +7,8 @@ import java.sql.Time;
  * Created by Роман on 24.10.2016.
  */
 @Entity
-@Table(name = "BOOKINGS", schema = "SYSTEM", catalog = "")
+@Table(name = "BOOKINGS", schema = "SYSTEM")
+
 public class BookingsEntity {
     private Long bookingId;
     private Long sum;

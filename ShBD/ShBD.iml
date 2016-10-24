@@ -6,9 +6,9 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
-          <factory-entry name="NewPersistenceUnit" value="b7b0c044-02c2-44c9-aa09-6b998c6b9a25" />
+          <factory-entry name="NewPersistenceUnit" value="92ee7eb1-48b5-45d7-8e52-abf29cfa7fa6" />
         </datasource-mapping>
-        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/META-INF/persistence.xml" />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/out/artifacts/ShBD_war_exploded/WEB-INF/classes/META-INF/persistence.xml" />
       </configuration>
     </facet>
     <facet type="web" name="Web">

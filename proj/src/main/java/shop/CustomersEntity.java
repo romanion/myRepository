@@ -1,12 +1,8 @@
-package META;
-
-import javax.persistence.*;
+package shop;
 
 /**
- * Created by Роман on 24.10.2016.
+ * Created by Роман on 05.11.2016.
  */
-@Entity
-@Table(name = "CUSTOMERS", schema = "SYSTEM")
 public class CustomersEntity {
     private Long customerId;
     private String firstName;
@@ -14,9 +10,8 @@ public class CustomersEntity {
     private String patronymic;
     private Long phone;
     private String email;
+    private Long bookingId;
 
-    @Basic
-    @Column(name = "CUSTOMER_ID")
     public Long getCustomerId() {
         return customerId;
     }
@@ -25,8 +20,6 @@ public class CustomersEntity {
         this.customerId = customerId;
     }
 
-    @Basic
-    @Column(name = "FIRST_NAME")
     public String getFirstName() {
         return firstName;
     }
@@ -35,8 +28,6 @@ public class CustomersEntity {
         this.firstName = firstName;
     }
 
-    @Basic
-    @Column(name = "LAST_NAME")
     public String getLastName() {
         return lastName;
     }
@@ -45,8 +36,6 @@ public class CustomersEntity {
         this.lastName = lastName;
     }
 
-    @Basic
-    @Column(name = "PATRONYMIC")
     public String getPatronymic() {
         return patronymic;
     }
@@ -55,8 +44,6 @@ public class CustomersEntity {
         this.patronymic = patronymic;
     }
 
-    @Basic
-    @Column(name = "PHONE")
     public Long getPhone() {
         return phone;
     }
@@ -65,14 +52,20 @@ public class CustomersEntity {
         this.phone = phone;
     }
 
-    @Basic
-    @Column(name = "EMAIL")
     public String getEmail() {
         return email;
     }
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public Long getBookingId() {
+        return bookingId;
+    }
+
+    public void setBookingId(Long bookingId) {
+        this.bookingId = bookingId;
     }
 
     @Override
@@ -88,6 +81,7 @@ public class CustomersEntity {
         if (patronymic != null ? !patronymic.equals(that.patronymic) : that.patronymic != null) return false;
         if (phone != null ? !phone.equals(that.phone) : that.phone != null) return false;
         if (email != null ? !email.equals(that.email) : that.email != null) return false;
+        if (bookingId != null ? !bookingId.equals(that.bookingId) : that.bookingId != null) return false;
 
         return true;
     }
@@ -100,17 +94,7 @@ public class CustomersEntity {
         result = 31 * result + (patronymic != null ? patronymic.hashCode() : 0);
         result = 31 * result + (phone != null ? phone.hashCode() : 0);
         result = 31 * result + (email != null ? email.hashCode() : 0);
+        result = 31 * result + (bookingId != null ? bookingId.hashCode() : 0);
         return result;
-    }
-
-    private String Customers;
-
-    @Id
-    public String getCustomers() {
-        return Customers;
-    }
-
-    public void setCustomers(String customers) {
-        Customers = customers;
     }
 }

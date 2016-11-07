@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.hibernate:hibernate-core">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/ojdbc6dms.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/unknown/hibernate-core-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/unknown/hibernate-core-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

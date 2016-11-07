@@ -1,0 +1,81 @@
+package base;
+
+import javax.persistence.*;
+import java.math.BigInteger;
+
+/**
+ * Created by Роман on 07.11.2016.
+ */
+@Entity
+@Table(name = "CHARACTERISTICS", schema = "public", catalog = "shop")
+public class CharacteristicsEntity {
+    private BigInteger characteristicId;
+    private BigInteger size;
+    private String color;
+    private BigInteger weight;
+
+    @Id
+    @Column(name = "CHARACTERISTIC_ID", nullable = false, precision = 0)
+    public BigInteger getCharacteristicId() {
+        return characteristicId;
+    }
+
+    public void setCharacteristicId(BigInteger characteristicId) {
+        this.characteristicId = characteristicId;
+    }
+
+    @Basic
+    @Column(name = "SIZE", nullable = false, precision = 0)
+    public BigInteger getSize() {
+        return size;
+    }
+
+    public void setSize(BigInteger size) {
+        this.size = size;
+    }
+
+    @Basic
+    @Column(name = "COLOR", nullable = false, length = -1)
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    @Basic
+    @Column(name = "WEIGHT", nullable = false, precision = 0)
+    public BigInteger getWeight() {
+        return weight;
+    }
+
+    public void setWeight(BigInteger weight) {
+        this.weight = weight;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        CharacteristicsEntity that = (CharacteristicsEntity) o;
+
+        if (characteristicId != null ? !characteristicId.equals(that.characteristicId) : that.characteristicId != null)
+            return false;
+        if (size != null ? !size.equals(that.size) : that.size != null) return false;
+        if (color != null ? !color.equals(that.color) : that.color != null) return false;
+        if (weight != null ? !weight.equals(that.weight) : that.weight != null) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = characteristicId != null ? characteristicId.hashCode() : 0;
+        result = 31 * result + (size != null ? size.hashCode() : 0);
+        result = 31 * result + (color != null ? color.hashCode() : 0);
+        result = 31 * result + (weight != null ? weight.hashCode() : 0);
+        return result;
+    }
+}

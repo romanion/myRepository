@@ -2,114 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f7800c3-5ee6-4b1f-8f24-61bbeb9a318a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ShBD/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ShBD/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ShBD/.idea/libraries/Hibernate.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ShBD/.idea/libraries/hibernate_release_5_1_2_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ShBD/.idea/libraries/org_ow2_util_maven_maven_osgi_plugin_launcher_api_1_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ShBD/.idea/libraries/org_ow2_util_maven_maven_osgi_plugin_launcher_core_1_0_22.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ShopBase/.idea/artifacts/ShopBase_EJB_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ShopBase/.idea/libraries/Hibernate_5_2_3_5_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ShopBase/.idea/libraries/ojdbc6dms.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ShopBase/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ShopBase/src/hibernate.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/libraries/Maven__antlr_antlr_2_7_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/libraries/Maven__asm_asm_1_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/libraries/Maven__asm_asm_attrs_1_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/libraries/Maven__cglib_cglib_2_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/libraries/Maven__commons_collections_commons_collections_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/libraries/Maven__javax_transaction_jta_1_0_1B.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/libraries/Maven__javax_transaction_jta_3_2_1_ga.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/libraries/Maven__jboss_javassist_3_3_ga.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/libraries/Maven__jboss_jboss_archive_browsing_5_0_0alpha_200607201_119.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/libraries/Maven__net_sf_ehcache_ehcache_1_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/libraries/Maven__org_hibernate_hibernate_3_2_1_ga.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/libraries/Maven__org_hibernate_hibernate_annotations_3_2_1_ga.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_3_2_1_ga.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/libraries/postgresql_postgresql_9_0_801_jdbc3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/libraries/required.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/pro.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/src/main/java/HibernateUtil/HibernateUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/src/main/java/base/BookingsEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/src/main/java/base/CategoriesEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/src/main/java/base/CharacteristicsEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/src/main/java/base/CustomersEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/src/main/java/base/ProductsEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/src/main/java/wrap/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/src/main/resources/BookingsEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../pro/src/main/resources/hibernate.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_1_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_attrs_1_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_jta_1_0_1B.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jboss_javassist_3_3_ga.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jboss_jboss_archive_browsing_5_0_0alpha_200607201_119.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_1_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_3_2_1_ga.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_3_5_1_ga.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_annotations_3_2_1_ga.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_3_2_1_ga.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_forge_forge_parent_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc6dms.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proj.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/HibernateUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/HibernateUtil/HibernateUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/shop/CategoriesEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/shop/CharacteristicsEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/shop/CustomersEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/shop/ProductsEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/wrap/BookingDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/wrap/BookingInt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/wrap/CategoriesDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/wrap/CatigoriesInt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/wrap/CharacteristicsDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/wrap/CharacteristicsInt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/wrap/CustomersDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/wrap/CustomersInt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/wrap/ProductsDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/wrap/ProductsInt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/wrap/main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/BookingsEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/CategoriesEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/CharacteristicsEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/CustomersEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/ProductsEntity.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ShBD/src/META/BookingsEntity.java" afterPath="$PROJECT_DIR$/src/main/java/shop/BookingsEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ShBD/.idea/artifacts/ShBD_war_exploded.xml" afterPath="$PROJECT_DIR$/../ShBD/.idea/artifacts/ShBD_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ShBD/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/../ShBD/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ShBD/.idea/misc.xml" afterPath="$PROJECT_DIR$/../ShBD/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ShBD/ShBD.iml" afterPath="$PROJECT_DIR$/../ShBD/ShBD.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ShBD/src/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/../ShBD/src/META-INF/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ShBD/src/META/CustomersEntity.java" afterPath="$PROJECT_DIR$/../ShBD/src/META/CustomersEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pro/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../pro/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="proj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -988,16 +882,24 @@
       <workItem from="1478511386423" duration="2682000" />
       <workItem from="1478514922066" duration="1479000" />
       <workItem from="1478535911009" duration="1195000" />
-      <workItem from="1478540968482" duration="1406000" />
+      <workItem from="1478540968482" duration="1582000" />
     </task>
+    <task id="LOCAL-00001" summary="project">
+      <created>1478543659374</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1478543659374</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34820000" />
+    <option name="totallyTimeSpent" value="34996000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="19" width="1361" height="727" extended-state="0" />
-    <editor active="true" />
+    <frame x="-6" y="19" width="1361" height="727" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1040,7 +942,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="project" />
+    <option name="LAST_COMMIT_MESSAGE" value="project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

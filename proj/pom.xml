@@ -52,7 +52,10 @@
             <artifactId>forge-parent</artifactId>
             <version>10</version>
         </dependency>
-
+        <dependency> <groupId>com.oracle.jdbc</groupId>
+            <artifactId>ojdbc7</artifactId>
+            <version>12.1.0.2</version>
+        </dependency>
 
     </dependencies>
 </project>

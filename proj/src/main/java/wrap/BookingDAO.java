@@ -11,7 +11,9 @@ public class BookingDAO implements BookingInt {
     SessionFactory sessionFactory;
     @Override
     public void save(BookingsEntity bookingEntity) {
-    getCurrentSession().save(bookingEntity);
+
+
+        getCurrentSession().save(bookingEntity);
     }
     @Override
     public void delete(long id) {

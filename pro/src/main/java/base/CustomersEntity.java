@@ -83,6 +83,7 @@ public class CustomersEntity {
         return bookingId;
     }
 
+
     public void setBookingId(BigInteger bookingId) {
         this.bookingId = bookingId;
     }

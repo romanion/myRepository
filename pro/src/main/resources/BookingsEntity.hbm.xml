@@ -4,7 +4,7 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="base.BookingsEntity" table="BOOKINGS" schema="SYSTEM">
+    <class name="base.BookingsEntity" table="BOOKINGS" schema="shop">
         <id name="bookingId">
             <column name="BOOKING_ID" sql-type="number(*)" precision="2147483646"/>
         </id>

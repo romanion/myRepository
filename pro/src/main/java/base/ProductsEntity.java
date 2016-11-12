@@ -102,11 +102,7 @@ public class ProductsEntity {
         this.categoriesByCategoryId = categoriesByCategoryId;
     }
 
-    @ManyToOne
-    @JoinColumn(name = "BOOKING_ID", referencedColumnName = "BOOKING_ID", nullable = false)
-    public BookingsEntity getBookingsByBookingId() {
-        return bookingsByBookingId;
-    }
+
 
     public void setBookingsByBookingId(BookingsEntity bookingsByBookingId) {
         this.bookingsByBookingId = bookingsByBookingId;

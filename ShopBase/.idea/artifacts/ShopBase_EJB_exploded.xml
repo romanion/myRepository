@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="exploded-ejb" name="ShopBase:EJB exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/ShopBase_EJB_exploded</output-path>
-    <root id="root">
-      <element id="javaee-facet-resources" facet="ShopBase/ejb/EJB" />
-      <element id="module-output" name="ShopBase" />
-    </root>
-  </artifact>
-</component>

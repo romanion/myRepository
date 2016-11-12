@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="base.CategoriesEntity" table="CATEGORIES" schema="shop">
+        <id name="categoryId">
+            <column name="CATEGORY_ID" sql-type="number(*)" precision="2147483646"/>
+        </id>
+        <property name="catrgoryName">
+            <column name="CATRGORY_NAME" sql-type="varchar2(20)" length="20"/>
+        </property>
+        <property name="parentId">
+            <column name="PARENT_ID" sql-type="number(*)" precision="2147483646"/>
+        </property>
+    </class>
+</hibernate-mapping>

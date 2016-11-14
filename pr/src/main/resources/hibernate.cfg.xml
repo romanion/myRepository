@@ -13,8 +13,5 @@
         <property name="hibernate.connection.username">shop</property>
         <property name="hibernate.connection.password">Stalin36413169</property>
         <property name="hibernate.current_session_context_class">thread</property>
-
-
-
     </session-factory>
 </hibernate-configuration>

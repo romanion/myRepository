@@ -7,14 +7,15 @@ import java.math.BigInteger;
  * Created by Роман on 07.11.2016.
  */
 @Entity
-@Table(name = "CATEGORIES", schema = "public", catalog = "shop")
+@Table(name = "CATEGORIES", schema = "public", catalog = "postgres")
 public class CategoriesEntity {
     private BigInteger categoryId;
     private String catrgoryName;
     private BigInteger parentId;
 
     @Id
-    @Column(name = "CATEGORY_ID", nullable = false, precision = 0)
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @Column(name = "catrgory_id", nullable = false, precision = 0)
     public BigInteger getCategoryId() {
         return categoryId;
     }
@@ -24,7 +25,7 @@ public class CategoriesEntity {
     }
 
     @Basic
-    @Column(name = "CATRGORY_NAME", nullable = false, length = 20)
+    @Column(name = "category_name", nullable = false, length = 20)
     public String getCatrgoryName() {
         return catrgoryName;
     }

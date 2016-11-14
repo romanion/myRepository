@@ -7,7 +7,7 @@ import java.math.BigInteger;
  * Created by Роман on 07.11.2016.
  */
 @Entity
-@Table(name = "PRODUCTS", schema = "public", catalog = "shop")
+@Table(name = "PRODUCTS", schema = "public", catalog = "postgres")
 public class ProductsEntity {
     private BigInteger productId;
     private BigInteger prize;
@@ -15,7 +15,9 @@ public class ProductsEntity {
     private String name;
     private CharacteristicsEntity characteristicsByCharacteristicId;
     private CategoriesEntity categoriesByCategoryId;
-    private BookingsEntity bookingsByBookingId;
+
+
+
 
     @Id
     @Column(name = "PRODUCT_ID", nullable = false, precision = 0)
@@ -26,6 +28,8 @@ public class ProductsEntity {
     public void setProductId(BigInteger productId) {
         this.productId = productId;
     }
+
+
 
     @Basic
     @Column(name = "PRIZE", nullable = false, precision = 0)
@@ -93,18 +97,12 @@ public class ProductsEntity {
     }
 
     @ManyToOne
-    @JoinColumn(name = "CATEGORY_ID", referencedColumnName = "CATEGORY_ID", nullable = false)
+    @JoinColumn(name = "CATEGORY_ID", referencedColumnName = "CATrGORY_ID", nullable = false)
     public CategoriesEntity getCategoriesByCategoryId() {
         return categoriesByCategoryId;
     }
 
     public void setCategoriesByCategoryId(CategoriesEntity categoriesByCategoryId) {
         this.categoriesByCategoryId = categoriesByCategoryId;
-    }
-
-
-
-    public void setBookingsByBookingId(BookingsEntity bookingsByBookingId) {
-        this.bookingsByBookingId = bookingsByBookingId;
     }
 }

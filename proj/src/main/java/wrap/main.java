@@ -1,7 +1,7 @@
 package wrap;
-import org.hibernate.Session;
-import shop.*;
-import HibernateUtil.HibernateUtil;
+        import org.hibernate.Session;
+        import shop.*;
+        import HibernateUtil.HibernateUtil;
 /**
  * Created by Роман on 06.11.2016.
  */

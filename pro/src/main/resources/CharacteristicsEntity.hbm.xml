@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE hibernate-mapping PUBLIC
-        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
-        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="base.CharacteristicsEntity" table="CHARACTERISTICS" schema="SYSTEM">
+    <class name="base.CharacteristicsEntity" table="CHARACTERISTICS" schema="public" catalog="postgres">
         <id name="characteristicId">
-            <column name="CHARACTERISTIC_ID" sql-type="number(*)" precision="2147483646"/>
+            <column name="CHARACTERISTIC_ID" sql-type="numeric" precision="-1"/>
         </id>
         <property name="size">
-            <column name="SIZE1" sql-type="number(*)" precision="2147483646"/>
-        </property>
-        <property name="weight">
-            <column name="WEIGHT" sql-type="number(*)" precision="2147483646"/>
+            <column name="SIZE" sql-type="numeric" precision="-1"/>
         </property>
         <property name="color">
-            <column name="COLOR" sql-type="varchar2(20)" length="20"/>
+            <column name="COLOR" sql-type="varchar"/>
+        </property>
+        <property name="weight">
+            <column name="WEIGHT" sql-type="numeric" precision="-1"/>
         </property>
     </class>
 </hibernate-mapping>

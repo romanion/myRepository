@@ -7,12 +7,12 @@ import java.math.BigInteger;
  * Created by Роман on 07.11.2016.
  */
 @Entity
-@Table(name = "CHARACTERISTICS", schema = "public", catalog = "shop")
+@Table(name = "CHARACTERISTICS", schema = "public", catalog = "postgres")
 public class CharacteristicsEntity {
     private BigInteger characteristicId;
-    private BigInteger size;
+    private Double size;
     private String color;
-    private BigInteger weight;
+    private Double weight;
 
     @Id
     @Column(name = "CHARACTERISTIC_ID", nullable = false, precision = 0)
@@ -26,11 +26,11 @@ public class CharacteristicsEntity {
 
     @Basic
     @Column(name = "SIZE", nullable = false, precision = 0)
-    public BigInteger getSize() {
+    public Double getSize() {
         return size;
     }
 
-    public void setSize(BigInteger size) {
+    public void setSize(Double size) {
         this.size = size;
     }
 
@@ -46,11 +46,11 @@ public class CharacteristicsEntity {
 
     @Basic
     @Column(name = "WEIGHT", nullable = false, precision = 0)
-    public BigInteger getWeight() {
+    public Double getWeight() {
         return weight;
     }
 
-    public void setWeight(BigInteger weight) {
+    public void setWeight(Double weight) {
         this.weight = weight;
     }
 

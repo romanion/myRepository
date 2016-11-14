@@ -7,7 +7,7 @@ import java.math.BigInteger;
  * Created by Роман on 07.11.2016.
  */
 @Entity
-@Table(name = "CUSTOMERS", schema = "public", catalog = "shop")
+@Table(name = "CUSTOMERS", schema = "public", catalog = "postgres")
 public class CustomersEntity {
     private BigInteger customerId;
     private String lastName;

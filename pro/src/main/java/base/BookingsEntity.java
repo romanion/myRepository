@@ -8,13 +8,13 @@ import java.sql.Date;
  * Created by Роман on 07.11.2016.
  */
 @Entity
-@Table(name = "BOOKINGS", schema = "public", catalog = "shop")
+@Table(name = "BOOKINGS", schema = "public", catalog = "postgres")
 public class BookingsEntity {
     private BigInteger sum;
     private Date data;
-    private BigInteger productId;
-    private BigInteger bookingId;
 
+    private BigInteger bookingId;
+    private ProductsEntity productsByProductId;
     @Basic
     @Column(name = "SUM", nullable = true, precision = 0)
     public BigInteger getSum() {
@@ -35,15 +35,7 @@ public class BookingsEntity {
         this.data = data;
     }
 
-    @Basic
-    @Column(name = "PRODUCT_ID", nullable = false, precision = 0)
-    public BigInteger getProductId() {
-        return productId;
-    }
 
-    public void setProductId(BigInteger productId) {
-        this.productId = productId;
-    }
 
     @Id
     @Column(name = "BOOKING_ID", nullable = false, precision = 0)
@@ -64,17 +56,25 @@ public class BookingsEntity {
 
         if (sum != null ? !sum.equals(that.sum) : that.sum != null) return false;
         if (data != null ? !data.equals(that.data) : that.data != null) return false;
-        if (productId != null ? !productId.equals(that.productId) : that.productId != null) return false;
+
         if (bookingId != null ? !bookingId.equals(that.bookingId) : that.bookingId != null) return false;
 
         return true;
     }
+    @ManyToOne
+    @JoinColumn(name = "PRODUCT_ID", referencedColumnName = "PRODUCT_ID", nullable = false)
+    public ProductsEntity getProductsByProductId() {
+        return productsByProductId;
+    }
 
+    public void setProductsByProductId(ProductsEntity productsByProductsId) {
+        this.productsByProductId = productsByProductsId;
+    }
     @Override
     public int hashCode() {
         int result = sum != null ? sum.hashCode() : 0;
         result = 31 * result + (data != null ? data.hashCode() : 0);
-        result = 31 * result + (productId != null ? productId.hashCode() : 0);
+
         result = 31 * result + (bookingId != null ? bookingId.hashCode() : 0);
         return result;
     }

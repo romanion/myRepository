@@ -10,8 +10,18 @@ import java.math.BigInteger;
  * Created by Роман on 13.11.2016.
  */
 public class ProductsAdd {
-    private CategoriesEntity myCategoriesEntity;
-    private CharacteristicsEntity myCharacteristicsEntity;
+    private CategoriesEntity myCategoriesEntity = null;
+    private CharacteristicsEntity myCharacteristicsEntity = null;
+
+    private ProductsDAO productsDAO = null;
+   private CharacteristicsDAO characteristicsDAO = null;
+    private CategoriesDAO categoriesDAO = null;
+
+    ProductsAdd(){
+        this.characteristicsDAO = new CharacteristicsDAO();
+        this.categoriesDAO = new CategoriesDAO();
+        this.productsDAO = new ProductsDAO();
+    }
 
     public void categoriesSet(int id, String name, int pid ){
         CategoriesEntity categoriesEntity = new CategoriesEntity();
@@ -24,14 +34,15 @@ public class ProductsAdd {
     }
 
     public void categoriesSave(CategoriesEntity categoriesEntity, String name ) {
-        CategoriesDAO dao = new CategoriesDAO();
+
 
         Session session = HibernateUtil.getSessionFactory().getCurrentSession();
-            dao.setSessionFactory(session.getSessionFactory());
+            categoriesDAO.setSessionFactory(session.getSessionFactory());
                 session.beginTransaction();
-                    dao.save(categoriesEntity, name);
+        categoriesDAO.save(categoriesEntity, name);
                         session.getTransaction().commit();
         this.myCategoriesEntity = categoriesEntity;
+
     }
 
     public void characteristicsSet(int id, String color, double size, double weight){
@@ -47,23 +58,24 @@ public class ProductsAdd {
     }
 
     public void characteristicsSave(CharacteristicsEntity characteristicsEntity, String name) {
-        CharacteristicsDAO dao = new CharacteristicsDAO();
+
 
         Session session = HibernateUtil.getSessionFactory().getCurrentSession();
-        dao.setSessionFactory(session.getSessionFactory());
+        characteristicsDAO.setSessionFactory(session.getSessionFactory());
         session.beginTransaction();
-        dao.save(characteristicsEntity, name);
+        characteristicsDAO.save(characteristicsEntity, name);
         session.getTransaction().commit();
         this.myCharacteristicsEntity = characteristicsEntity;
+
     }
 
     public void productsSet(int id, String name, int prize, boolean ava){
         ProductsEntity productsEntity = new ProductsEntity();
 
             productsEntity.setProductAvailability(ava);
-            productsEntity.setPrize(BigInteger.valueOf(prize));
-            productsEntity.setProductId(BigInteger.valueOf(id));
-            productsEntity.setName(name);
+        productsEntity.setPrize(BigInteger.valueOf(prize));
+        productsEntity.setProductId(BigInteger.valueOf(id));
+        productsEntity.setName(name);
 
             productsEntity.setCategoriesByCategoryId(this.myCategoriesEntity);
             productsEntity.setCharacteristicsByCharacteristicId(this.myCharacteristicsEntity);
@@ -74,12 +86,13 @@ public class ProductsAdd {
     }
 
     public void productsSave(ProductsEntity productsEntity, String name) {
-       ProductsDAO dao = new ProductsDAO();
+
 
         Session session = HibernateUtil.getSessionFactory().getCurrentSession();
-        dao.setSessionFactory(session.getSessionFactory());
+        productsDAO.setSessionFactory(session.getSessionFactory());
         session.beginTransaction();
-        dao.save(productsEntity, name);
+        productsDAO.save(productsEntity, name);
         session.getTransaction().commit();
+
     }
 }

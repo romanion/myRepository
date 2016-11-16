@@ -15,7 +15,7 @@ public class CustomersEntity {
     private Boolean adminMode;
     private String email;
     private BigInteger phone;
-    private BigInteger bookingId;
+
 
     @Id
     @Column(name = "CUSTOMER_ID", nullable = false, precision = 0)
@@ -77,16 +77,7 @@ public class CustomersEntity {
         this.phone = phone;
     }
 
-    @Basic
-    @Column(name = "BOOKING_ID", nullable = false, precision = 0)
-    public BigInteger getBookingId() {
-        return bookingId;
-    }
 
-
-    public void setBookingId(BigInteger bookingId) {
-        this.bookingId = bookingId;
-    }
 
     @Override
     public boolean equals(Object o) {
@@ -101,7 +92,6 @@ public class CustomersEntity {
         if (adminMode != null ? !adminMode.equals(that.adminMode) : that.adminMode != null) return false;
         if (email != null ? !email.equals(that.email) : that.email != null) return false;
         if (phone != null ? !phone.equals(that.phone) : that.phone != null) return false;
-        if (bookingId != null ? !bookingId.equals(that.bookingId) : that.bookingId != null) return false;
 
         return true;
     }
@@ -114,7 +104,7 @@ public class CustomersEntity {
         result = 31 * result + (adminMode != null ? adminMode.hashCode() : 0);
         result = 31 * result + (email != null ? email.hashCode() : 0);
         result = 31 * result + (phone != null ? phone.hashCode() : 0);
-        result = 31 * result + (bookingId != null ? bookingId.hashCode() : 0);
+
         return result;
     }
 }

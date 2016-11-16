@@ -15,6 +15,7 @@ public class BookingsEntity {
 
     private BigInteger bookingId;
     private ProductsEntity productsByProductId;
+    private CustomersEntity customersByCustomerId;
     @Basic
     @Column(name = "SUM", nullable = true, precision = 0)
     public BigInteger getSum() {
@@ -24,6 +25,7 @@ public class BookingsEntity {
     public void setSum(BigInteger sum) {
         this.sum = sum;
     }
+
 
     @Basic
     @Column(name = "DATA", nullable = true)
@@ -69,6 +71,15 @@ public class BookingsEntity {
 
     public void setProductsByProductId(ProductsEntity productsByProductsId) {
         this.productsByProductId = productsByProductsId;
+    }
+    @ManyToOne
+    @JoinColumn(name = "CUSTOMER_ID", referencedColumnName = "CUSTOMER_ID", nullable = false)
+    public CustomersEntity getCustomersByCustomerId() {
+        return customersByCustomerId;
+    }
+
+    public void setCustomersByCustomerId(CustomersEntity customersByCustomerId) {
+        this.customersByCustomerId = customersByCustomerId;
     }
     @Override
     public int hashCode() {

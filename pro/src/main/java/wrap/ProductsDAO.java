@@ -20,6 +20,7 @@ public class ProductsDAO implements ProductsInt {
     public void delete(BigInteger id) {
         getCurrentSession().delete(getEntityById(id));
     }
+
     @Override
     public void update(ProductsEntity productsEntity) {
         getCurrentSession().update(productsEntity);

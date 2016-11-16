@@ -11,6 +11,7 @@
         <property name="sum">
             <column name="SUM" sql-type="numeric" precision="-1" not-null="true"/>
         </property>
+
         <property name="data">
             <column name="DATA" sql-type="date" not-null="true"/>
         </property>
@@ -18,5 +19,9 @@
         <many-to-one name="productsByProductId" class="base.ProductsEntity">
             <column name="PRODUCT_ID"/>
         </many-to-one>
-    </class>
+        <many-to-one name="customersByCustomerId" class="base.CustomersEntity">
+    <column name="CUSTOMER_ID"/>
+</many-to-one>
+</class>
+
 </hibernate-mapping>

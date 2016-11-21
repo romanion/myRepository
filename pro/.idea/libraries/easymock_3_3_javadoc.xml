@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="easymock-3.3-javadoc">
+    <CLASSES>
+      <root url="jar://C:/Program Files/easymock-3.3/easymock-3.3-samples.jar!/" />
+      <root url="jar://C:/Program Files/easymock-3.3/easymock-3.3-tests.jar!/" />
+      <root url="jar://C:/Program Files/easymock-3.3/easymock-3.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/Program Files/easymock-3.3/easymock-3.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://C:/Program Files/easymock-3.3/easymock-3.3-samples.jar!/" />
+      <root url="jar://C:/Program Files/easymock-3.3/easymock-3.3-sources.jar!/" />
+      <root url="jar://C:/Program Files/easymock-3.3/easymock-3.3-tests.jar!/" />
+    </SOURCES>
+  </library>
+</component>

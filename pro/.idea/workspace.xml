@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="050817bd-5963-4de1-83ff-b849d3b1d8bc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/work/ConsoleInterface.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/base/BookingsEntity.class" afterPath="$PROJECT_DIR$/target/classes/base/BookingsEntity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/base/CategoriesEntity.class" afterPath="$PROJECT_DIR$/target/classes/base/CategoriesEntity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/base/CustomersEntity.class" afterPath="$PROJECT_DIR$/target/classes/base/CustomersEntity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/wrap/Main.class" afterPath="$PROJECT_DIR$/target/classes/wrap/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/754609a0-f4fc-4bba-b446-a384a7218c62.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/754609a0-f4fc-4bba-b446-a384a7218c62.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/CategoriesEntity.java" afterPath="$PROJECT_DIR$/src/main/java/base/CategoriesEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/CustomersEntity.java" afterPath="$PROJECT_DIR$/src/main/java/base/CustomersEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/BookingAdd.java" afterPath="$PROJECT_DIR$/src/main/java/service/BookingAdd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/Searching.java" afterPath="$PROJECT_DIR$/src/main/java/service/Searching.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/work/User.java" afterPath="$PROJECT_DIR$/src/main/java/work/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/wrap/Main.java" afterPath="$PROJECT_DIR$/src/main/java/wrap/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BookingsEntity.hbm.xml" afterPath="$PROJECT_DIR$/target/classes/BookingsEntity.hbm.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CustomersEntity.hbm.xml" afterPath="$PROJECT_DIR$/target/classes/CustomersEntity.hbm.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" />
@@ -1025,7 +1016,7 @@
       <workItem from="1479249058858" duration="5948000" />
       <workItem from="1479296988604" duration="6443000" />
       <workItem from="1479306058542" duration="6443000" />
-      <workItem from="1479719599898" duration="1197000" />
+      <workItem from="1479719599898" duration="1202000" />
     </task>
     <task id="LOCAL-00001" summary="+ adding to tables">
       <created>1479138492625</created>
@@ -1041,11 +1032,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479255109137</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="+ last">
+      <created>1479721075114</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1479721075114</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107943000" />
+    <option name="totallyTimeSpent" value="107948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />

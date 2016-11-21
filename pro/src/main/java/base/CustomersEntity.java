@@ -18,11 +18,12 @@ public class CustomersEntity {
 
 
     @Id
+    @GeneratedValue(
+            strategy=GenerationType.TABLE)
     @Column(name = "CUSTOMER_ID", nullable = false, precision = 0)
     public BigInteger getCustomerId() {
         return customerId;
     }
-
     public void setCustomerId(BigInteger customerId) {
         this.customerId = customerId;
     }

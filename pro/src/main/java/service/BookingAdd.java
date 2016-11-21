@@ -14,7 +14,7 @@ public class BookingAdd {
       private BookingsEntity myBookingEntity = null;
     private BookingDAO myBookingDAO = null;
 
-    BookingAdd() {
+   public BookingAdd() {
         myBookingDAO = new BookingDAO();
         myBookingEntity = new BookingsEntity();
 

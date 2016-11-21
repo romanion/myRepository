@@ -14,7 +14,7 @@ public class CategoriesEntity {
     private BigInteger parentId;
 
     @Id
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
+
     @Column(name = "catrgory_id", nullable = false, precision = 0)
     public BigInteger getCategoryId() {
         return categoryId;

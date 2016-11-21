@@ -16,8 +16,10 @@ public class Main {
     public static void main(String args[]) {
 
 
-        User user = new User();
-        user.createUser();
+     /*   User user = new User();
+        user.createUser();*/
+     Searching sea = new Searching();
+        System.out.println(sea.searchingByCategory("trus").get(0).getName());
         /* *//* Searching sea = new Searching();
         System.out.println(sea.searchingByCategory("trusy", 1).get(0).getName());
         *//**//* String str = "PS";*//*

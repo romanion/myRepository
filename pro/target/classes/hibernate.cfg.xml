@@ -13,7 +13,7 @@
         <property name="hibernate.current_session_context_class">thread</property>
         <property name="hibernate.connection.username">postgres</property>
         <property name="hibernate.connection.password">Stalin36413169</property>
-
+       
         <mapping class="base.CategoriesEntity"/>
         <mapping class="base.CharacteristicsEntity"/>
         <mapping class="base.CustomersEntity"/>

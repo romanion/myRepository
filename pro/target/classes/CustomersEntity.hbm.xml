@@ -23,8 +23,6 @@
         <property name="phone">
             <column name="PHONE" sql-type="numeric" precision="-1"/>
         </property>
-        <property name="bookingId">
-            <column name="BOOKING_ID" sql-type="numeric" precision="-1"/>
-        </property>
+
     </class>
 </hibernate-mapping>

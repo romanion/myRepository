@@ -1,4 +1,4 @@
-package wrap;
+package intdao;
 
 import base.CharacteristicsEntity;
 
@@ -9,7 +9,7 @@ import java.math.BigInteger;
  */
 public interface CharacteristicsInt {
     public void save(CharacteristicsEntity characteristicsEntity, String name);
-    public void delete(BigInteger id);
+    public void delete(long id);
     public void update(CharacteristicsEntity characteristicsEntity);
-    public CharacteristicsEntity getEntityById(BigInteger id);
+    public CharacteristicsEntity getEntityById(long id);
 }

@@ -4,9 +4,9 @@
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="base.CategoriesEntity" table="categories" schema="public" catalog="postgres">
+    <class name="base.CategoriesEntity" table="categories1" schema="public" catalog="postgres">
         <id name="categoryId">
-            <column name="catrgory_id" sql-type="numeric" precision="-1"/>
+            <column name="catrgory_id" sql-type="integer" />
         </id>
         <property name="catrgoryName">
             <column name="category_name" sql-type="varchar(20)" length="20"/>

@@ -7,21 +7,22 @@ import org.hibernate.cfg.Configuration;
  * Created by Роман on 07.11.2016.
  */
 public class HibernateUtil {
-    private static final SessionFactory sessionFactory;
 
-    static {
+
+
+
+    public static SessionFactory getSessionFactory() {
         try {
             // Create the SessionFactory from hibernate.cfg.xml
-            sessionFactory = new AnnotationConfiguration().configure().buildSessionFactory();
+            SessionFactory sessionFactory = new AnnotationConfiguration().configure().buildSessionFactory();
+            return  sessionFactory;
         } catch (Throwable ex) {
             // Make sure you log the exception, as it might be swallowed
             System.err.println("Initial SessionFactory creation failed." + ex);
             throw new ExceptionInInitializerError(ex);
         }
-    }
 
-    public static SessionFactory getSessionFactory() {
-        return sessionFactory;
+
     }
 }
 

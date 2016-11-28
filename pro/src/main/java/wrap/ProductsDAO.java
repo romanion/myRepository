@@ -1,6 +1,7 @@
 package wrap;
 
 import HibernateUtil.HibernateUtil;
+import intdao.ProductsInt;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import base.ProductsEntity;
@@ -11,33 +12,46 @@ import java.math.BigInteger;
  * Created by Роман on 05.11.2016.
  */
 public class ProductsDAO implements ProductsInt {
-    SessionFactory sessionFactory;
+
     @Override
     public void save(ProductsEntity productsEntity, String name) {
-        getCurrentSession().saveOrUpdate(name, productsEntity);
+       Session session = getNewSession();
+        session.beginTransaction();
+        session.saveOrUpdate(name, productsEntity);
+        session.getTransaction().commit();
     }
     @Override
-    public void delete(BigInteger id) {
-        getCurrentSession().delete(getEntityById(id));
+    public void delete(long id) {
+        Session session = getNewSession();
+        session.beginTransaction();
+        session.delete(id);
+        session.getTransaction().commit();
     }
 
     @Override
     public void update(ProductsEntity productsEntity) {
-        getCurrentSession().update(productsEntity);
+        Session session = getNewSession();
+        session.beginTransaction();
+        session.update(productsEntity);
+        session.getTransaction().commit();
     }
 
     @Override
-    public ProductsEntity getEntityById(BigInteger id) {
-        return (ProductsEntity)  getCurrentSession().get(ProductsEntity.class, id);
-
+    public ProductsEntity getEntityById(long id) {
+        ProductsEntity productsEntity;
+        Session session = getNewSession();
+        session.beginTransaction();
+      productsEntity = (ProductsEntity)  session.get(ProductsEntity.class, id);
+        session.getTransaction().commit();
+        return productsEntity;
     }
 
-    private Session getCurrentSession(){
-        return sessionFactory.getCurrentSession();
+    private Session getNewSession(){
+        return HibernateUtil.getSessionFactory().getCurrentSession();
     }
 
-    public void setSessionFactory(SessionFactory sessionFactory){
+  /*  public void createSessionFactory(SessionFactory sessionFactory){
         this.sessionFactory = sessionFactory;
 
-    }
+    }*/
 }

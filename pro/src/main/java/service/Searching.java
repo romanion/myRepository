@@ -13,13 +13,13 @@ import java.util.List;
  */
 public class Searching {
 
-    public List<ProductsEntity> searchingByName(String name, int maxResults) {
+ static public List<ProductsEntity> searchingByName(String name) {
             Session session = HibernateUtil.getSessionFactory().getCurrentSession();
             session.beginTransaction();
             List<ProductsEntity> products =
                     session.createCriteria(ProductsEntity.class)
                             .add(Restrictions.eq("name", name))
-                            .setMaxResults(maxResults)
+                            .setMaxResults(10)
                             .list();
 
             session.getTransaction().commit();
@@ -27,10 +27,25 @@ public class Searching {
 
         return products;
     }
-    public Object customerByEmail(String email) {
+
+    /////////////////////////////////////////////
+    static public CustomersEntity accountControl(String email, String password) {
+        CustomersEntity customersEntity = null;
         Session session = HibernateUtil.getSessionFactory().getCurrentSession();
         session.beginTransaction();
-        Object customersEntity = session.createSQLQuery("select c.* from CUSTOMERS c " +
+       customersEntity = (CustomersEntity) session.createSQLQuery("select c.* from CUSTOMERS1 c " +
+                "WHERE c.EMAIL LIKE('"+email+"')and c.password LIKE('"+password+"')")
+                .addEntity(CustomersEntity.class)
+                .uniqueResult();
+        session.getTransaction().commit();
+        return customersEntity;
+    }
+/////////////////////////////////////////////////////
+
+    static public Object customerByEmail(String email) {
+        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+        session.beginTransaction();
+        Object customersEntity = session.createSQLQuery("select c.* from CUSTOMERS1 c " +
                 "WHERE c.EMAIL LIKE('"+email+"')")
                 .addEntity(CustomersEntity.class)
                 .uniqueResult();
@@ -38,12 +53,15 @@ public class Searching {
 
         return customersEntity;
     }
-    public List<ProductsEntity> searchingByCategory(String category) {
+
+
+   static public List<ProductsEntity> searchingByCategory(String category) {
         Session session = HibernateUtil.getSessionFactory().getCurrentSession();
         session.beginTransaction();
-        List<ProductsEntity> products =  session.createSQLQuery("select p.* from PRODUCTS as p inner JOIN CATEGORIES as c " +
+        List<ProductsEntity> products =  session.createSQLQuery("select p.* from PRODUCTS1 as p inner JOIN CATEGORIES1 as c " +
                         "ON p.CATEGORY_ID =c.CATRGORY_ID WHERE c.CATEGORY_NAME LIKE('"+category+"')")
                 .addEntity(ProductsEntity.class)
+                .setMaxResults(10)
                 .list();
 
         session.getTransaction().commit();

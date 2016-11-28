@@ -13,7 +13,6 @@
         <property name="hibernate.current_session_context_class">thread</property>
         <property name="hibernate.connection.username">postgres</property>
         <property name="hibernate.connection.password">Stalin36413169</property>
-       
         <mapping class="base.CategoriesEntity"/>
         <mapping class="base.CharacteristicsEntity"/>
         <mapping class="base.CustomersEntity"/>
@@ -24,6 +23,8 @@
         <mapping resource="CharacteristicsEntity.hbm.xml"/>
         <mapping resource="CustomersEntity.hbm.xml"/>
         <mapping resource="ProductsEntity.hbm.xml"/>
+        <mapping resource="MatcherEntity.hbm.xml"/>
+        <mapping class="base.MatcherEntity"/>
 
     </session-factory>
 </hibernate-configuration>

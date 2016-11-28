@@ -20,28 +20,21 @@ public class UserAdd {
     }
 
     public void consumerSet(int id, String lastName, String firstName,
-                            boolean adMode, int phone, String email ){
+                            boolean adMode, String phone, String email, String password ){
 
 
         myCustomersEntity.setAdminMode(adMode);
-        myCustomersEntity.setCustomerId(BigInteger.valueOf(id));
+    //    myCustomersEntity.setCustomerId(BigInteger.valueOf(id));
         myCustomersEntity.setEmail(email);
         myCustomersEntity.setFirstName(firstName);
         myCustomersEntity.setLastName(lastName);
-        myCustomersEntity.setPhone(BigInteger.valueOf(phone));
+        myCustomersEntity.setPhone(phone);
+        myCustomersEntity.setPassword(password);
 
         this.customerSave();
     }
 
     public void customerSave() {
-
-
-        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
-        myCustomersDAO.setSessionFactory(session.getSessionFactory());
-        session.beginTransaction();
         myCustomersDAO.save(myCustomersEntity);
-        session.getTransaction().commit();
-
-
     }
 }

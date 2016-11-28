@@ -7,20 +7,20 @@ import java.math.BigInteger;
  * Created by Роман on 07.11.2016.
  */
 @Entity
-@Table(name = "CATEGORIES", schema = "public", catalog = "postgres")
+@Table(name = "CATEGORIES1", schema = "public", catalog = "postgres")
 public class CategoriesEntity {
-    private BigInteger categoryId;
+    private long categoryId;
     private String catrgoryName;
     private BigInteger parentId;
 
     @Id
-
+    @GeneratedValue(strategy=GenerationType.TABLE)
     @Column(name = "catrgory_id", nullable = false, precision = 0)
-    public BigInteger getCategoryId() {
+    public long getCategoryId() {
         return categoryId;
     }
 
-    public void setCategoryId(BigInteger categoryId) {
+    public void setCategoryId(long categoryId) {
         this.categoryId = categoryId;
     }
 
@@ -51,7 +51,7 @@ public class CategoriesEntity {
 
         CategoriesEntity that = (CategoriesEntity) o;
 
-        if (categoryId != null ? !categoryId.equals(that.categoryId) : that.categoryId != null) return false;
+      //  if (categoryId != null ? !categoryId.equals(that.categoryId) : that.categoryId != null) return false;
         if (catrgoryName != null ? !catrgoryName.equals(that.catrgoryName) : that.catrgoryName != null) return false;
         if (parentId != null ? !parentId.equals(that.parentId) : that.parentId != null) return false;
 
@@ -60,8 +60,8 @@ public class CategoriesEntity {
 
     @Override
     public int hashCode() {
-        int result = categoryId != null ? categoryId.hashCode() : 0;
-        result = 31 * result + (catrgoryName != null ? catrgoryName.hashCode() : 0);
+        int result = /*categoryId != null ? categoryId.hashCode() : 0;
+        result = 31 * result +*/ (catrgoryName != null ? catrgoryName.hashCode() : 0);
         result = 31 * result + (parentId != null ? parentId.hashCode() : 0);
         return result;
     }

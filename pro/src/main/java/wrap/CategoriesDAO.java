@@ -1,41 +1,53 @@
 package wrap;
-
 import HibernateUtil.HibernateUtil;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-
 import base.CategoriesEntity;
+import intdao.CategoriesInt;
+import intdao.CharacteristicsInt;
+import org.hibernate.Session;
+import base.CharacteristicsEntity;
 
 import java.math.BigInteger;
-
 /**
- * Created by Роман on 05.11.2016.
+ * Created by Роман on 27.11.2016.
  */
 public class CategoriesDAO implements CategoriesInt {
-    SessionFactory sessionFactory;
+
     @Override
     public void save(CategoriesEntity categoriesEntity, String name) {
-        getCurrentSession().saveOrUpdate(name, categoriesEntity);
+        Session session = getNewSession();
+        session.beginTransaction();
+        session.saveOrUpdate(name, categoriesEntity);
+        session.getTransaction().commit();
     }
     @Override
-    public void delete(BigInteger id) {
-        getCurrentSession().delete(getEntityById(id));
+    public void delete(long id) {
+
+        Session session = getNewSession();
+        session.beginTransaction();
+        session.delete(id);
+        session.getTransaction().commit();
     }
     @Override
     public void update(CategoriesEntity categoriesEntity) {
-        getCurrentSession().update(categoriesEntity);
+        Session session = getNewSession();
+        session.beginTransaction();
+        session.update(categoriesEntity);
+        session.getTransaction().commit();
+
     }
     @Override
-    public CategoriesEntity getEntityById(BigInteger id) {
-        return (CategoriesEntity) getCurrentSession().get(CategoriesEntity.class, id);
+    public CategoriesEntity getEntityById(long id) {
+        CategoriesEntity categoriesEntity;
+        Session session = getNewSession();
+        session.beginTransaction();
+        categoriesEntity = (CategoriesEntity) session.get(CategoriesEntity.class, id);
+        session.getTransaction().commit();
+        return categoriesEntity;
     }
 
-    private Session getCurrentSession(){
-        return sessionFactory.getCurrentSession();
+    private Session getNewSession(){
+        return HibernateUtil.getSessionFactory().getCurrentSession();
     }
 
-    public void setSessionFactory(SessionFactory sessionFactory){
-        this.sessionFactory = sessionFactory;
 
-    }
 }

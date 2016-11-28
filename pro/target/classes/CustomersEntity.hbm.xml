@@ -4,9 +4,9 @@
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="base.CustomersEntity" table="CUSTOMERS" schema="public" catalog="postgres">
+    <class name="base.CustomersEntity" table="CUSTOMERS1" schema="public" catalog="postgres">
         <id name="customerId">
-            <column name="CUSTOMER_ID" sql-type="numeric" precision="-1"/>
+            <column name="CUSTOMER_ID" sql-type="integer" />
         </id>
         <property name="lastName">
             <column name="LAST_NAME" sql-type="varchar(20)" length="20"/>
@@ -21,7 +21,10 @@
             <column name="EMAIL" sql-type="varchar(30)" length="30"/>
         </property>
         <property name="phone">
-            <column name="PHONE" sql-type="numeric" precision="-1"/>
+            <column name="PHONE" sql-type="varchar(11)" length="11"/>
+        </property>
+        <property name="password">
+            <column name="password" sql-type="varchar(50)" length="50"/>
         </property>
 
     </class>

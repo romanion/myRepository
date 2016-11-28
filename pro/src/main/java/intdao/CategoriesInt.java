@@ -1,4 +1,4 @@
-package wrap;
+package intdao;
 
 
 import base.*;
@@ -10,8 +10,8 @@ import java.math.BigInteger;
  */
 public interface CategoriesInt {
     public void save(CategoriesEntity categoriesEntity, String name);
-    public void delete(BigInteger id);
+    public void delete(long id);
     public void update(CategoriesEntity categoriesEntity);
-    public CategoriesEntity getEntityById(BigInteger id);
+    public CategoriesEntity getEntityById(long id);
 
 }

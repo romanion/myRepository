@@ -1,4 +1,4 @@
-package wrap;
+package intdao;
 import base.*;
 
 import java.math.BigInteger;
@@ -9,7 +9,7 @@ import java.math.BigInteger;
 public interface ProductsInt {
 
     public void save(ProductsEntity productsEntity, String name);
-    public void delete(BigInteger id);
+    public void delete(long id);
     public void update(ProductsEntity productsEntity);
-    public  ProductsEntity getEntityById(BigInteger id);
+    public  ProductsEntity getEntityById(long id);
 }

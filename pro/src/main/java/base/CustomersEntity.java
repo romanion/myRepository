@@ -7,24 +7,24 @@ import java.math.BigInteger;
  * Created by Роман on 07.11.2016.
  */
 @Entity
-@Table(name = "CUSTOMERS", schema = "public", catalog = "postgres")
+@Table(name = "CUSTOMERS1", schema = "public", catalog = "postgres")
 public class CustomersEntity {
-    private BigInteger customerId;
+    private long customerId;
     private String lastName;
     private String firstName;
     private Boolean adminMode;
     private String email;
-    private BigInteger phone;
+    private String phone;
+    private String password;
 
 
     @Id
-    @GeneratedValue(
-            strategy=GenerationType.TABLE)
+    @GeneratedValue(strategy=GenerationType.TABLE)
     @Column(name = "CUSTOMER_ID", nullable = false, precision = 0)
-    public BigInteger getCustomerId() {
+    public long getCustomerId() {
         return customerId;
     }
-    public void setCustomerId(BigInteger customerId) {
+    public void setCustomerId(long customerId) {
         this.customerId = customerId;
     }
 
@@ -49,6 +49,17 @@ public class CustomersEntity {
     }
 
     @Basic
+    @Column(name = "PASSWORD", nullable = false, length = 50)
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+
+    @Basic
     @Column(name = "ADMIN_MODE", nullable = false)
     public Boolean getAdminMode() {
         return adminMode;
@@ -69,12 +80,12 @@ public class CustomersEntity {
     }
 
     @Basic
-    @Column(name = "PHONE", nullable = false, precision = 0)
-    public BigInteger getPhone() {
+    @Column(name = "PHONE", nullable = false, length = 11)
+    public String getPhone() {
         return phone;
     }
 
-    public void setPhone(BigInteger phone) {
+    public void setPhone(String phone) {
         this.phone = phone;
     }
 
@@ -87,7 +98,7 @@ public class CustomersEntity {
 
         CustomersEntity that = (CustomersEntity) o;
 
-        if (customerId != null ? !customerId.equals(that.customerId) : that.customerId != null) return false;
+     //   if (customerId != null ? !customerId.equals(that.customerId) : that.customerId != null) return false;
         if (lastName != null ? !lastName.equals(that.lastName) : that.lastName != null) return false;
         if (firstName != null ? !firstName.equals(that.firstName) : that.firstName != null) return false;
         if (adminMode != null ? !adminMode.equals(that.adminMode) : that.adminMode != null) return false;
@@ -99,8 +110,8 @@ public class CustomersEntity {
 
     @Override
     public int hashCode() {
-        int result = customerId != null ? customerId.hashCode() : 0;
-        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
+        int result = /*customerId != null ? customerId.hashCode() : 0;
+        result = 31 * result + */(lastName != null ? lastName.hashCode() : 0);
         result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
         result = 31 * result + (adminMode != null ? adminMode.hashCode() : 0);
         result = 31 * result + (email != null ? email.hashCode() : 0);

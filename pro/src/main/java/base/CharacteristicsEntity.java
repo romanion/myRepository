@@ -7,20 +7,21 @@ import java.math.BigInteger;
  * Created by Роман on 07.11.2016.
  */
 @Entity
-@Table(name = "CHARACTERISTICS", schema = "public", catalog = "postgres")
+@Table(name = "CHARACTERISTICS1", schema = "public", catalog = "postgres")
 public class CharacteristicsEntity {
-    private BigInteger characteristicId;
+    private long characteristicId;
     private Double size;
     private String color;
     private Double weight;
 
     @Id
+    @GeneratedValue(strategy=GenerationType.TABLE)
     @Column(name = "CHARACTERISTIC_ID", nullable = false, precision = 0)
-    public BigInteger getCharacteristicId() {
+    public long getCharacteristicId() {
         return characteristicId;
     }
 
-    public void setCharacteristicId(BigInteger characteristicId) {
+    public void setCharacteristicId(long characteristicId) {
         this.characteristicId = characteristicId;
     }
 
@@ -61,8 +62,8 @@ public class CharacteristicsEntity {
 
         CharacteristicsEntity that = (CharacteristicsEntity) o;
 
-        if (characteristicId != null ? !characteristicId.equals(that.characteristicId) : that.characteristicId != null)
-            return false;
+     /*   if (characteristicId != null ? !characteristicId.equals(that.characteristicId) : that.characteristicId != null)
+            return false;*/
         if (size != null ? !size.equals(that.size) : that.size != null) return false;
         if (color != null ? !color.equals(that.color) : that.color != null) return false;
         if (weight != null ? !weight.equals(that.weight) : that.weight != null) return false;
@@ -72,8 +73,8 @@ public class CharacteristicsEntity {
 
     @Override
     public int hashCode() {
-        int result = characteristicId != null ? characteristicId.hashCode() : 0;
-        result = 31 * result + (size != null ? size.hashCode() : 0);
+        int result = /*characteristicId != null ? characteristicId.hashCode() : 0;
+        result = 31 * result +*/ (size != null ? size.hashCode() : 0);
         result = 31 * result + (color != null ? color.hashCode() : 0);
         result = 31 * result + (weight != null ? weight.hashCode() : 0);
         return result;

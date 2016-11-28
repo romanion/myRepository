@@ -1,6 +1,6 @@
-package wrap;
+package intdao;
 
-import base.*;
+import base.BookingsEntity;
 
 import java.math.BigInteger;
 
@@ -11,9 +11,9 @@ import java.math.BigInteger;
 public interface BookingInt {
 
     public void save(BookingsEntity bookingEntity);
-    public void delete(BigInteger id);
+    public void delete(long id);
     public void update(BookingsEntity bookingEntity);
-    public BookingsEntity getEntityById(BigInteger id);
+    public BookingsEntity getEntityById(long id);
 
 
 }

@@ -7,9 +7,9 @@ import java.math.BigInteger;
  * Created by Роман on 07.11.2016.
  */
 @Entity
-@Table(name = "PRODUCTS", schema = "public", catalog = "postgres")
+@Table(name = "PRODUCTS1", schema = "public", catalog = "postgres")
 public class ProductsEntity {
-    private BigInteger productId;
+    private long productId;
     private BigInteger prize;
     private Boolean productAvailability;
     private String name;
@@ -20,12 +20,13 @@ public class ProductsEntity {
 
 
     @Id
+    @GeneratedValue(strategy=GenerationType.TABLE)
     @Column(name = "PRODUCT_ID", nullable = false, precision = 0)
-    public BigInteger getProductId() {
+    public long getProductId() {
         return productId;
     }
 
-    public void setProductId(BigInteger productId) {
+    public void setProductId(long productId) {
         this.productId = productId;
     }
 
@@ -68,7 +69,7 @@ public class ProductsEntity {
 
         ProductsEntity that = (ProductsEntity) o;
 
-        if (productId != null ? !productId.equals(that.productId) : that.productId != null) return false;
+      //  if (productId != null ? !productId.equals(that.productId) : that.productId != null) return false;
         if (prize != null ? !prize.equals(that.prize) : that.prize != null) return false;
         if (productAvailability != null ? !productAvailability.equals(that.productAvailability) : that.productAvailability != null)
             return false;
@@ -79,8 +80,8 @@ public class ProductsEntity {
 
     @Override
     public int hashCode() {
-        int result = productId != null ? productId.hashCode() : 0;
-        result = 31 * result + (prize != null ? prize.hashCode() : 0);
+        int result = /*productId != null ? productId.hashCode() : 0;
+        result = 31 * result + */(prize != null ? prize.hashCode() : 0);
         result = 31 * result + (productAvailability != null ? productAvailability.hashCode() : 0);
         result = 31 * result + (name != null ? name.hashCode() : 0);
         return result;

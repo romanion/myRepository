@@ -8,13 +8,13 @@ import java.sql.Date;
  * Created by Роман on 07.11.2016.
  */
 @Entity
-@Table(name = "BOOKINGS", schema = "public", catalog = "postgres")
+@Table(name = "BOOKINGS1", schema = "public", catalog = "postgres")
 public class BookingsEntity {
     private BigInteger sum;
     private Date data;
 
-    private BigInteger bookingId;
-    private ProductsEntity productsByProductId;
+    private long bookingId;
+
     private CustomersEntity customersByCustomerId;
     @Basic
     @Column(name = "SUM", nullable = true, precision = 0)
@@ -40,12 +40,13 @@ public class BookingsEntity {
 
 
     @Id
+    @GeneratedValue(strategy=GenerationType.TABLE)
     @Column(name = "BOOKING_ID", nullable = false, precision = 0)
-    public BigInteger getBookingId() {
+    public long getBookingId() {
         return bookingId;
     }
 
-    public void setBookingId(BigInteger bookingId) {
+    public void setBookingId(long bookingId) {
         this.bookingId = bookingId;
     }
 
@@ -59,19 +60,11 @@ public class BookingsEntity {
         if (sum != null ? !sum.equals(that.sum) : that.sum != null) return false;
         if (data != null ? !data.equals(that.data) : that.data != null) return false;
 
-        if (bookingId != null ? !bookingId.equals(that.bookingId) : that.bookingId != null) return false;
+      //  if (bookingId != null ? !bookingId.equals(that.bookingId) : that.bookingId != null) return false;
 
         return true;
     }
-    @ManyToOne
-    @JoinColumn(name = "PRODUCT_ID", referencedColumnName = "PRODUCT_ID", nullable = false)
-    public ProductsEntity getProductsByProductId() {
-        return productsByProductId;
-    }
 
-    public void setProductsByProductId(ProductsEntity productsByProductsId) {
-        this.productsByProductId = productsByProductsId;
-    }
     @ManyToOne
     @JoinColumn(name = "CUSTOMER_ID", referencedColumnName = "CUSTOMER_ID", nullable = false)
     public CustomersEntity getCustomersByCustomerId() {
@@ -86,7 +79,7 @@ public class BookingsEntity {
         int result = sum != null ? sum.hashCode() : 0;
         result = 31 * result + (data != null ? data.hashCode() : 0);
 
-        result = 31 * result + (bookingId != null ? bookingId.hashCode() : 0);
+       // result = 31 * result + (bookingId != null ? bookingId.hashCode() : 0);
         return result;
     }
 }

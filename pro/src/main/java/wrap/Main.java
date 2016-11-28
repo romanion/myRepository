@@ -5,6 +5,8 @@ import HibernateUtil.HibernateUtil;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
 import service.*;
+
+import java.io.IOException;
 import java.math.BigInteger;
 import java.util.List;
 import work.*;
@@ -13,13 +15,19 @@ import work.*;
  */
 public class Main {
 
-    public static void main(String args[]) {
+    public static void main(String args[]) throws IOException {
 
+      /*  User user = new User();
+
+        user.createUser();*/
+
+       ConsoleInterface consoleInterface = new ConsoleInterface();
+       consoleInterface.authentication();
 
      /*   User user = new User();
         user.createUser();*/
-     Searching sea = new Searching();
-        System.out.println(sea.searchingByCategory("trus").get(0).getName());
+//     Searching sea = new Searching();
+//        System.out.println(sea.searchingByCategory("trus").get(0).getName());
         /* *//* Searching sea = new Searching();
         System.out.println(sea.searchingByCategory("trusy", 1).get(0).getName());
         *//**//* String str = "PS";*//*

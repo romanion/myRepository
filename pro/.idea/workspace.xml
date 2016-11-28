@@ -2,75 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="050817bd-5963-4de1-83ff-b849d3b1d8bc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/base/MatcherEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/intdao/MatcherInt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/work/Admin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/wrap/MatcherDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/MatcherEntity.hbm.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/wrap/BookingInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/wrap/CategoriesInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/wrap/CharacteristicsInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/wrap/CustomersInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/wrap/ProductsInt.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/wrap/BookingInt.java" afterPath="$PROJECT_DIR$/src/main/java/intdao/BookingInt.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/wrap/CategoriesInt.java" afterPath="$PROJECT_DIR$/src/main/java/intdao/CategoriesInt.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/wrap/CharacteristicsInt.java" afterPath="$PROJECT_DIR$/src/main/java/intdao/CharacteristicsInt.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/wrap/CustomersInt.java" afterPath="$PROJECT_DIR$/src/main/java/intdao/CustomersInt.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/wrap/ProductsInt.java" afterPath="$PROJECT_DIR$/src/main/java/intdao/ProductsInt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/HibernateUtil/HibernateUtil.class" afterPath="$PROJECT_DIR$/target/classes/HibernateUtil/HibernateUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/base/BookingsEntity.class" afterPath="$PROJECT_DIR$/target/classes/base/BookingsEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/base/CategoriesEntity.class" afterPath="$PROJECT_DIR$/target/classes/base/CategoriesEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/base/CharacteristicsEntity.class" afterPath="$PROJECT_DIR$/target/classes/base/CharacteristicsEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/base/CustomersEntity.class" afterPath="$PROJECT_DIR$/target/classes/base/CustomersEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/base/ProductsEntity.class" afterPath="$PROJECT_DIR$/target/classes/base/ProductsEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/BookingAdd.class" afterPath="$PROJECT_DIR$/target/classes/service/BookingAdd.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/ProductsAdd.class" afterPath="$PROJECT_DIR$/target/classes/service/ProductsAdd.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/Searching.class" afterPath="$PROJECT_DIR$/target/classes/service/Searching.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/UserAdd.class" afterPath="$PROJECT_DIR$/target/classes/service/UserAdd.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/work/User.class" afterPath="$PROJECT_DIR$/target/classes/work/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/wrap/BookingDAO.class" afterPath="$PROJECT_DIR$/target/classes/wrap/BookingDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/wrap/CategoriesDAO.class" afterPath="$PROJECT_DIR$/target/classes/wrap/CategoriesDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/wrap/CharacteristicsDAO.class" afterPath="$PROJECT_DIR$/target/classes/wrap/CharacteristicsDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/wrap/CustomersDAO.class" afterPath="$PROJECT_DIR$/target/classes/wrap/CustomersDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/wrap/Main.class" afterPath="$PROJECT_DIR$/target/classes/wrap/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/wrap/ProductsDAO.class" afterPath="$PROJECT_DIR$/target/classes/wrap/ProductsDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/754609a0-f4fc-4bba-b446-a384a7218c62.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/754609a0-f4fc-4bba-b446-a384a7218c62.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pro.iml" afterPath="$PROJECT_DIR$/pro.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HibernateUtil/HibernateUtil.java" afterPath="$PROJECT_DIR$/src/main/java/HibernateUtil/HibernateUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/BookingsEntity.java" afterPath="$PROJECT_DIR$/src/main/java/base/BookingsEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/CategoriesEntity.java" afterPath="$PROJECT_DIR$/src/main/java/base/CategoriesEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/CharacteristicsEntity.java" afterPath="$PROJECT_DIR$/src/main/java/base/CharacteristicsEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/CustomersEntity.java" afterPath="$PROJECT_DIR$/src/main/java/base/CustomersEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/ProductsEntity.java" afterPath="$PROJECT_DIR$/src/main/java/base/ProductsEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/BookingAdd.java" afterPath="$PROJECT_DIR$/src/main/java/service/BookingAdd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/ProductsAdd.java" afterPath="$PROJECT_DIR$/src/main/java/service/ProductsAdd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/Searching.java" afterPath="$PROJECT_DIR$/src/main/java/service/Searching.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/UserAdd.java" afterPath="$PROJECT_DIR$/src/main/java/service/UserAdd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/work/ConsoleInterface.java" afterPath="$PROJECT_DIR$/src/main/java/work/ConsoleInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/work/User.java" afterPath="$PROJECT_DIR$/src/main/java/work/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/wrap/BookingDAO.java" afterPath="$PROJECT_DIR$/src/main/java/wrap/BookingDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/wrap/CategoriesDAO.java" afterPath="$PROJECT_DIR$/src/main/java/wrap/CategoriesDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/wrap/CharacteristicsDAO.java" afterPath="$PROJECT_DIR$/src/main/java/wrap/CharacteristicsDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/wrap/CustomersDAO.java" afterPath="$PROJECT_DIR$/src/main/java/wrap/CustomersDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/wrap/Main.java" afterPath="$PROJECT_DIR$/src/main/java/wrap/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/wrap/ProductsDAO.java" afterPath="$PROJECT_DIR$/src/main/java/wrap/ProductsDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/BookingsEntity.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/BookingsEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/CategoriesEntity.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/CategoriesEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/CharacteristicsEntity.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/CharacteristicsEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/CustomersEntity.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/CustomersEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ProductsEntity.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/ProductsEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BookingsEntity.hbm.xml" afterPath="$PROJECT_DIR$/target/classes/BookingsEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CategoriesEntity.hbm.xml" afterPath="$PROJECT_DIR$/target/classes/CategoriesEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CharacteristicsEntity.hbm.xml" afterPath="$PROJECT_DIR$/target/classes/CharacteristicsEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CustomersEntity.hbm.xml" afterPath="$PROJECT_DIR$/target/classes/CustomersEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ProductsEntity.hbm.xml" afterPath="$PROJECT_DIR$/target/classes/ProductsEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proj/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../proj/.idea/workspace.xml" />
     </list>
     <ignored path="pro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -107,48 +40,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/work/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1649">
-              <caret line="107" column="27" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#4418#4419#0" expanded="false" />
-                <element signature="e#4455#4456#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="postgres.public.categories1" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/4e44282c/754609a0-f4fc-4bba-b446-a384a7218c62/postgres.public.categories1">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookingAdd.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/BookingAdd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#851#867#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="postgres.public.customers1" pinned="false" current-in-tab="false">
         <entry file="dbDummy://dbtable:/4e44282c/754609a0-f4fc-4bba-b446-a384a7218c62/postgres.public.customers1">
           <provider editor-type-id="text-editor">
@@ -164,182 +55,98 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HibernateUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HibernateUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/HibernateUtil/HibernateUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="250">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomersEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/base/CustomersEntity.java">
+      <file leaf-file-name="BookingsEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/base/BookingsEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="73">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatcherEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/base/MatcherEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-33">
+              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#584#585#0" expanded="false" />
-                <element signature="e#617#618#0" expanded="false" />
-                <element signature="e#666#667#0" expanded="false" />
-                <element signature="e#710#711#0" expanded="false" />
-                <element signature="e#819#820#0" expanded="false" />
-                <element signature="e#850#851#0" expanded="false" />
-                <element signature="e#898#899#0" expanded="false" />
-                <element signature="e#938#939#0" expanded="false" />
-                <element signature="e#1049#1050#0" expanded="false" />
-                <element signature="e#1081#1082#0" expanded="false" />
-                <element signature="e#1131#1132#0" expanded="false" />
-                <element signature="e#1173#1174#0" expanded="false" />
-                <element signature="e#1281#1282#0" expanded="false" />
-                <element signature="e#1312#1313#0" expanded="false" />
-                <element signature="e#1360#1361#0" expanded="false" />
-                <element signature="e#1400#1401#0" expanded="false" />
-                <element signature="e#1500#1501#0" expanded="false" />
-                <element signature="e#1532#1533#0" expanded="false" />
-                <element signature="e#1583#1584#0" expanded="false" />
-                <element signature="e#1625#1626#0" expanded="false" />
-                <element signature="e#1727#1728#0" expanded="false" />
-                <element signature="e#1755#1756#0" expanded="false" />
-                <element signature="e#1797#1798#0" expanded="false" />
-                <element signature="e#1831#1832#0" expanded="false" />
-                <element signature="e#1933#1934#0" expanded="false" />
-                <element signature="e#1961#1962#0" expanded="false" />
-                <element signature="e#2003#2004#0" expanded="false" />
-                <element signature="e#2037#2038#0" expanded="false" />
+                <element signature="e#462#463#0" expanded="false" />
+                <element signature="e#494#495#0" expanded="false" />
+                <element signature="e#545#546#0" expanded="false" />
+                <element signature="e#587#588#0" expanded="false" />
+                <element signature="e#748#749#0" expanded="false" />
+                <element signature="e#790#791#0" expanded="false" />
+                <element signature="e#1658#1659#0" expanded="false" />
+                <element signature="e#1725#1726#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DATABASE/754609a0-f4fc-4bba-b446-a384a7218c62.DATABASE:postgres" pinned="false" current-in-tab="false">
-        <entry file="uml://DATABASE/754609a0-f4fc-4bba-b446-a384a7218c62.DATABASE:postgres">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>DATABASE</ID>
-              <OriginalElement>754609a0-f4fc-4bba-b446-a384a7218c62.DATABASE:postgres</OriginalElement>
-              <nodes>
-                <node x="507.0" y="590.0">754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.customers</node>
-                <node x="520.0" y="33.0">754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.characteristics1</node>
-                <node x="92.0" y="759.0">754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.products</node>
-                <node x="835.0" y="590.0">754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.bookings</node>
-                <node x="261.75" y="448.0">754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.matcher</node>
-                <node x="0.0" y="601.0">754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.categories</node>
-                <node x="395.0" y="235.0">754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.products1</node>
-                <node x="303.0" y="44.0">754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.categories1</node>
-                <node x="34.0" y="257.0">754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.bookings1</node>
-                <node x="0.0" y="0.0">754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.customers1</node>
-                <node x="217.0" y="590.0">754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.characteristics</node>
-                <node x="0.0" y="967.0">754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.saleepeople</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.products1" target="754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.categories1">
-                  <point x="-63.5" y="-81.5" />
-                  <point x="458.5" y="210.0" />
-                  <point x="401.5" y="210.0" />
-                  <point x="0.0" y="48.5" />
-                </edge>
-                <edge source="754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.matcher" target="754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.bookings1">
-                  <point x="-49.25" y="-48.5" />
-                  <point x="311.0" y="423.0" />
-                  <point x="141.5" y="423.0" />
-                  <point x="0.0" y="59.5" />
-                </edge>
-                <edge source="754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.products" target="754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.categories">
-                  <point x="-63.5" y="-81.5" />
-                  <point x="155.5" y="734.0" />
-                  <point x="98.5" y="734.0" />
-                  <point x="0.0" y="48.5" />
-                </edge>
-                <edge source="754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.matcher" target="754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.products1">
-                  <point x="49.25" y="-48.5" />
-                  <point x="409.5" y="423.0" />
-                  <point x="522.0" y="423.0" />
-                  <point x="0.0" y="81.5" />
-                </edge>
-                <edge source="754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.products" target="754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.characteristics">
-                  <point x="63.5" y="-81.5" />
-                  <point x="282.5" y="734.0" />
-                  <point x="339.5" y="734.0" />
-                  <point x="0.0" y="59.5" />
-                </edge>
-                <edge source="754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.products1" target="754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.characteristics1">
-                  <point x="63.5" y="-81.5" />
-                  <point x="585.5" y="210.0" />
-                  <point x="642.5" y="210.0" />
-                  <point x="0.0" y="59.5" />
-                </edge>
-                <edge source="754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.bookings1" target="754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.customers1">
-                  <point x="0.0" y="-59.5" />
-                  <point x="0.0" y="92.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.7266968325791855" x="222.0" y="320.0" />
-              <SelectedNodes>
-                <node>754609a0-f4fc-4bba-b446-a384a7218c62.TABLE:postgres.public.customers</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Columns</Category>
-                <Category>Key columns</Category>
-              </Categories>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Searching.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/Searching.java">
+      <file leaf-file-name="BookingDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wrap/BookingDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="60" column="118" selection-start-line="60" selection-start-column="118" selection-end-line="60" selection-end-column="118" />
+            <state relative-caret-position="216">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <marker date="1480288426521" expanded="true" signature="1183:1253" ph="select c.* f... CUSTOMERS" />
-                <marker date="1480288426521" expanded="true" signature="1183:1267" ph="select c.* f... CUSTOMERS" />
-                <marker date="1480288426521" expanded="true" signature="1183:1299" ph="select c.* f... CUSTOMERS" />
-                <marker date="1480288426521" expanded="true" signature="1752:1781" ph="select c.* f... CUSTOMERS" />
-                <marker date="1480288426521" expanded="true" signature="1752:1822" ph="select c.* f... CUSTOMERS" />
-                <marker date="1480288426521" expanded="true" signature="1752:1833" ph="select p.* f... PRODUCTS" />
-                <marker date="1480288426521" expanded="true" signature="2262:2403" ph="select p.* f... PRODUCTS" />
-                <marker date="1480288426521" expanded="true" signature="2262:2424" ph="select p.* f... PRODUCTS" />
-                <marker date="1480288426521" expanded="true" signature="2262:2435" ph="select p.* f... PRODUCTS" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/wrap/Main.java">
+      <file leaf-file-name="CharacteristicsEntity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/base/CharacteristicsEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <marker date="1480287643153" expanded="true" signature="1126:1189" ph="select p.* f... PRODUCTS" />
-                <marker date="1480287643153" expanded="true" signature="1126:1195" ph="select p.* f... Passport" />
-                <marker date="1480287643153" expanded="true" signature="1126:1199" ph="select p.* f... PRODUCTS" />
-              </folding>
+            <state relative-caret-position="-221">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsoleInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/work/ConsoleInterface.java">
+      <file leaf-file-name="CategoriesEntity.hbm.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/CategoriesEntity.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
+            <state relative-caret-position="136">
+              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoriesDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wrap/CategoriesDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CharacteristicsDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wrap/CharacteristicsDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="false" />
-                <element signature="e#405#406#0" expanded="false" />
-                <element signature="e#453#454#0" expanded="false" />
-                <element signature="e#2452#2453#0" expanded="false" />
-                <element signature="e#2506#2507#0" expanded="false" />
-                <element signature="e#4669#4670#0" expanded="false" />
-                <element signature="e#4695#4696#0" expanded="false" />
+                <element signature="e#1524#1525#0" expanded="false" />
+                <element signature="e#1600#1601#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -378,7 +185,6 @@
         <option value="$PROJECT_DIR$/src/main/java/wrap/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/work/Admin.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/754609a0-f4fc-4bba-b446-a384a7218c62/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/HibernateUtil/HibernateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/UserAdd.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/CustomersEntity.java" />
         <option value="$PROJECT_DIR$/src/main/resources/CustomersEntity.hbm.xml" />
@@ -393,7 +199,6 @@
         <option value="$PROJECT_DIR$/src/main/java/base/BookingsEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/MatcherEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/intdao/MatcherInt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/wrap/BookingDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/wrap/CategoriesDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/wrap/CharacteristicsDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/wrap/CustomersDAO.java" />
@@ -411,6 +216,8 @@
         <option value="$PROJECT_DIR$/src/main/java/service/Searching.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/BookingAdd.java" />
         <option value="$PROJECT_DIR$/src/main/java/work/ConsoleInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HibernateUtil/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wrap/BookingDAO.java" />
       </list>
     </option>
   </component>
@@ -1210,7 +1017,7 @@
       <workItem from="1480250947228" duration="11531000" />
       <workItem from="1480270618341" duration="11597000" />
       <workItem from="1480287403247" duration="2889000" />
-      <workItem from="1480358185293" duration="1211000" />
+      <workItem from="1480358185293" duration="2762000" />
     </task>
     <task id="LOCAL-00001" summary="+ adding to tables">
       <created>1479138492625</created>
@@ -1233,11 +1040,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479721075114</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="+ user">
+      <created>1480361442942</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1480361442942</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157167000" />
+    <option name="totallyTimeSpent" value="158718000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1249,7 +1063,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1265,7 +1079,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23065476" sideWeight="0.25192803" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23071104" sideWeight="0.74807197" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23071104" sideWeight="0.74807197" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16263238" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.4969743" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1297,7 +1111,8 @@
     <MESSAGE value="+ adding to tables" />
     <MESSAGE value="+ userStart" />
     <MESSAGE value="+ last" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ last" />
+    <MESSAGE value="+ user" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ user" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1310,7 +1125,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/DAOtest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/wrap/BookingInt.java" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/754609a0-f4fc-4bba-b446-a384a7218c62/console_2.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -1438,6 +1252,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1453,24 +1270,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/CharacteristicsEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/base/CategoriesEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/CategoriesEntity.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -1514,13 +1317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/BookingsEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/4e44282c/754609a0-f4fc-4bba-b446-a384a7218c62/postgres.public.bookings1">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1538,27 +1334,6 @@
         <state relative-caret-position="17">
           <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/wrap/BookingDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/wrap/CategoriesDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/wrap/CharacteristicsDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1615,13 +1390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/MatcherEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1913,13 +1681,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HibernateUtil/HibernateUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/MatcherEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="-33">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding>
+            <element signature="e#462#463#0" expanded="false" />
+            <element signature="e#494#495#0" expanded="false" />
+            <element signature="e#545#546#0" expanded="false" />
+            <element signature="e#587#588#0" expanded="false" />
+            <element signature="e#748#749#0" expanded="false" />
+            <element signature="e#790#791#0" expanded="false" />
+            <element signature="e#1658#1659#0" expanded="false" />
+            <element signature="e#1725#1726#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wrap/CharacteristicsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="false" />
+            <element signature="e#1524#1525#0" expanded="false" />
+            <element signature="e#1600#1601#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/BookingsEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/CategoriesEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HibernateUtil/HibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wrap/CategoriesDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wrap/BookingDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/CharacteristicsEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/intdao/g.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

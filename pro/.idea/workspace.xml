@@ -2,236 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="050817bd-5963-4de1-83ff-b849d3b1d8bc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/work/help.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/dataSources.local.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/dataSources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/libraries/Maven__antlr_antlr_2_7_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/libraries/Maven__asm_asm_1_5_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/libraries/Maven__asm_asm_attrs_1_5_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/libraries/Maven__cglib_cglib_2_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/libraries/Maven__commons_collections_commons_collections_2_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/libraries/Maven__javax_transaction_jta_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/libraries/Maven__jboss_javassist_3_3_ga.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/libraries/Maven__jboss_jboss_archive_browsing_5_0_0alpha_200607201_119.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/libraries/Maven__net_sf_ehcache_ehcache_1_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/libraries/Maven__org_hibernate_hibernate_3_2_1_ga.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/libraries/Maven__org_hibernate_hibernate_annotations_3_2_1_ga.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_3_2_1_ga.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/libraries/com_google_code_maven_play_plugin_postgresql_postgresql_9_0_801_jdbc4_patched_play_1_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/pr.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../pr/src/main/resources/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/4605237e-74ae-4500-a387-e6829ab2a21b.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/754609a0-f4fc-4bba-b446-a384a7218c62.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_1_5_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_attrs_1_5_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__classworlds_classworlds_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_2_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_api_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_jta_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_jta_3_2_1_ga.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jboss_javassist_3_3_ga.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jboss_jboss_archive_browsing_5_0_0alpha_200607201_119.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_1_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_2_0_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_manager_2_0_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_core_2_0_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_error_diagnostics_2_0_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_2_0_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_monitor_2_0_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_2_0_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_descriptor_2_0_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_parameter_documenter_2_0_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_registry_2_0_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_profile_2_0_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_project_2_0_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_2_0_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_2_0_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_toolchain_2_0_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugin_tools_maven_plugin_annotations_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_reporting_maven_reporting_api_2_0_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_common_artifact_filters_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_maven_surefire_common_2_12_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_api_2_12_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_surefire_surefire_booter_2_12_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_1_0_beta_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_container_default_1_0_alpha_9_stable_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_3_2_1_ga.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_annotations_3_2_1_ga.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_3_2_1_ga.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_util_util_i18n_1_0_22.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_util_util_log_1_0_22.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_util_util_xml_1_0_22.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_util_util_xmlconfig_1_0_22.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/easymock_3_3_javadoc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/postgresql_postgresql_9_0_801_jdbc3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/required.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/BookingsEntity.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CategoriesEntity.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CharacteristicsEntity.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CustomersEntity.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/HibernateUtil/HibernateUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/MatcherEntity.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ProductsEntity.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/base/BookingsEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/base/CategoriesEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/base/CharacteristicsEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/base/CustomersEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/base/MatcherEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/base/ProductsEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/intdao/BookingInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/intdao/CategoriesInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/intdao/CharacteristicsInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/intdao/CustomersInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/intdao/MatcherInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/intdao/ProductsInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/service/BookingAdd.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/service/ProductsAdd.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/service/Searching.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/service/UserAdd.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/work/Admin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/work/ConsoleInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/work/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/wrap/BookingDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/wrap/CategoriesDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/wrap/CharacteristicsDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/wrap/CustomersDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/wrap/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/wrap/MatcherDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/wrap/ProductsDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/dataSources.local.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/dataSources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/dataSources/1fd72072-c4a4-4f46-b9b3-45bd2460ddcc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/dataSources/5a489693-47a0-4986-8186-3b55bb7884e7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/Hibernate.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/Maven__antlr_antlr_2_7_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/Maven__asm_asm_1_5_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/Maven__asm_asm_attrs_1_5_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/Maven__cglib_cglib_2_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/Maven__com_oracle_jdbc_ojdbc7_12_1_0_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/Maven__commons_collections_commons_collections_2_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/Maven__javax_transaction_jta_1_0_1B.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/Maven__jboss_javassist_3_3_ga.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/Maven__jboss_jboss_archive_browsing_5_0_0alpha_200607201_119.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/Maven__net_sf_ehcache_ehcache_1_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/Maven__org_hibernate_hibernate_3_2_1_ga.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/Maven__org_hibernate_hibernate_3_5_1_ga.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/Maven__org_hibernate_hibernate_annotations_3_2_1_ga.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/Maven__org_hibernate_hibernate_core.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_3_2_1_ga.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/Maven__org_sonatype_forge_forge_parent_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/ojdbc6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/libraries/ojdbc6dms.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/proj.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/java/HibernateUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/java/HibernateUtil/HibernateUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/java/shop/BookingsEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/java/shop/CategoriesEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/java/shop/CharacteristicsEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/java/shop/CustomersEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/java/shop/ProductsEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/java/wrap/BookingDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/java/wrap/BookingInt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/java/wrap/CategoriesDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/java/wrap/CatigoriesInt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/java/wrap/CharacteristicsDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/java/wrap/CharacteristicsInt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/java/wrap/CustomersDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/java/wrap/CustomersInt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/java/wrap/ProductsDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/java/wrap/ProductsInt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/java/wrap/main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/resources/BookingsEntity.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/resources/CategoriesEntity.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/resources/CharacteristicsEntity.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/resources/CustomersEntity.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/resources/ProductsEntity.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/src/main/resources/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/BookingsEntity.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/CategoriesEntity.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/CharacteristicsEntity.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/CustomersEntity.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/HibernateUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/HibernateUtil/HibernateUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/ProductsEntity.hbm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/shop/BookingsEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/shop/CategoriesEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/shop/CharacteristicsEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/shop/CustomersEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/shop/ProductsEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/wrap/BookingDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/wrap/BookingInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/wrap/CategoriesDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/wrap/CatigoriesInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/wrap/CharacteristicsDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/wrap/CharacteristicsInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/wrap/CustomersDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/wrap/CustomersInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/wrap/ProductsDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/wrap/ProductsInt.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../proj/target/classes/wrap/main.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/BookingsEntity.java" afterPath="$PROJECT_DIR$/src/main/java/base/BookingsEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/CategoriesEntity.java" afterPath="$PROJECT_DIR$/src/main/java/base/CategoriesEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/CharacteristicsEntity.java" afterPath="$PROJECT_DIR$/src/main/java/base/CharacteristicsEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/CustomersEntity.java" afterPath="$PROJECT_DIR$/src/main/java/base/CustomersEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/MatcherEntity.java" afterPath="$PROJECT_DIR$/src/main/java/base/MatcherEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/base/ProductsEntity.java" afterPath="$PROJECT_DIR$/src/main/java/base/ProductsEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/BookingAdd.java" afterPath="$PROJECT_DIR$/src/main/java/service/BookingAdd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/ProductsAdd.java" afterPath="$PROJECT_DIR$/src/main/java/service/ProductsAdd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/Searching.java" afterPath="$PROJECT_DIR$/src/main/java/service/Searching.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/work/ConsoleInterface.java" afterPath="$PROJECT_DIR$/src/main/java/work/ConsoleInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/work/User.java" afterPath="$PROJECT_DIR$/src/main/java/work/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/wrap/BookingDAO.java" afterPath="$PROJECT_DIR$/src/main/java/wrap/BookingDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/wrap/Main.java" afterPath="$PROJECT_DIR$/src/main/java/wrap/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/BookingsEntity.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/BookingsEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/CategoriesEntity.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/CategoriesEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/CharacteristicsEntity.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/CharacteristicsEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/CustomersEntity.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/CustomersEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/MatcherEntity.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/MatcherEntity.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ProductsEntity.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/ProductsEntity.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1281,7 +1052,7 @@
       <workItem from="1480443117762" duration="593000" />
       <workItem from="1480444848082" duration="14060000" />
       <workItem from="1480460486877" duration="3427000" />
-      <workItem from="1480522125912" duration="176000" />
+      <workItem from="1480522125912" duration="236000" />
     </task>
     <task id="LOCAL-00001" summary="+ adding to tables">
       <created>1479138492625</created>
@@ -1311,11 +1082,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480361442942</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="norm_git">
+      <created>1480522380574</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1480522380574</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210886000" />
+    <option name="totallyTimeSpent" value="210946000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1328,7 +1106,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="772" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.46030533" order="6" side_tool="false" content_ui="tabs" />
@@ -1394,7 +1172,8 @@
     <MESSAGE value="+ userStart" />
     <MESSAGE value="+ last" />
     <MESSAGE value="+ user" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ user" />
+    <MESSAGE value="norm_git" />
+    <option name="LAST_COMMIT_MESSAGE" value="norm_git" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1592,6 +1371,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
           <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1752,6 +1532,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#630#631#0" expanded="false" />
+            <element signature="e#662#663#0" expanded="false" />
+            <element signature="e#710#711#0" expanded="false" />
+            <element signature="e#752#753#0" expanded="false" />
+            <element signature="e#862#863#0" expanded="false" />
+            <element signature="e#890#891#0" expanded="false" />
+            <element signature="e#936#937#0" expanded="false" />
+            <element signature="e#970#971#0" expanded="false" />
+            <element signature="e#1089#1090#0" expanded="false" />
+            <element signature="e#1131#1132#0" expanded="false" />
+            <element signature="e#1202#1203#0" expanded="false" />
+            <element signature="e#1264#1265#0" expanded="false" />
+            <element signature="e#1364#1365#0" expanded="false" />
+            <element signature="e#1391#1392#0" expanded="false" />
+            <element signature="e#1431#1432#0" expanded="false" />
+            <element signature="e#1463#1464#0" expanded="false" />
+            <element signature="e#2719#2720#0" expanded="false" />
+            <element signature="e#2775#2776#0" expanded="false" />
+            <element signature="e#3146#3147#0" expanded="false" />
+            <element signature="e#3191#3192#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1771,6 +1574,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-675">
           <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

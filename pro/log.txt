@@ -1,0 +1,2836 @@
+ноя 29, 2016 9:49:08 PM org.hibernate.cfg.annotations.Version <clinit>
+INFO: Hibernate Annotations 3.2.1.GA
+ноя 29, 2016 9:49:08 PM org.hibernate.cfg.Environment <clinit>
+INFO: Hibernate 3.2.1
+ноя 29, 2016 9:49:08 PM org.hibernate.cfg.Environment <clinit>
+INFO: hibernate.properties not found
+ноя 29, 2016 9:49:08 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: Bytecode provider name : cglib
+ноя 29, 2016 9:49:08 PM org.hibernate.cfg.Environment <clinit>
+INFO: using JDK 1.4 java.sql.Timestamp handling
+ноя 29, 2016 9:49:09 PM org.hibernate.cfg.Configuration configure
+INFO: configuring from resource: /hibernate.cfg.xml
+ноя 29, 2016 9:49:09 PM org.hibernate.cfg.Configuration getConfigurationInputStream
+INFO: Configuration resource: /hibernate.cfg.xml
+ноя 29, 2016 9:49:09 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : BookingsEntity.hbm.xml
+ноя 29, 2016 9:49:11 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : CategoriesEntity.hbm.xml
+ноя 29, 2016 9:49:12 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : CharacteristicsEntity.hbm.xml
+ноя 29, 2016 9:49:13 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : CustomersEntity.hbm.xml
+ноя 29, 2016 9:49:14 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : ProductsEntity.hbm.xml
+ноя 29, 2016 9:49:14 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : MatcherEntity.hbm.xml
+ноя 29, 2016 9:49:15 PM org.hibernate.cfg.Configuration doConfigure
+INFO: Configured SessionFactory: null
+ноя 29, 2016 9:49:16 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.BookingsEntity -> BOOKINGS1
+ноя 29, 2016 9:49:16 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.CategoriesEntity -> categories1
+ноя 29, 2016 9:49:16 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.CharacteristicsEntity -> CHARACTERISTICS1
+ноя 29, 2016 9:49:16 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.CustomersEntity -> CUSTOMERS1
+ноя 29, 2016 9:49:16 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.ProductsEntity -> PRODUCTS1
+ноя 29, 2016 9:49:16 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.MatcherEntity -> matcher1
+ноя 29, 2016 9:49:16 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:49:16 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:49:16 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:49:16 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:49:16 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:49:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:49:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:49:16 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:49:16 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:49:16 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:49:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:49:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:49:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:49:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:49:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:49:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:49:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:49:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:49:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:49:16 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:49:16 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:49:17 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:49:17 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:49:17 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:49:17 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:49:17 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:49:17 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:49:17 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:49:17 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:49:17 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:49:17 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:49:17 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:49:17 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:49:17 PM org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+ноя 29, 2016 9:49:17 PM org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+ноя 29, 2016 9:49:17 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+ноя 29, 2016 9:49:17 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+ноя 29, 2016 9:49:17 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+ноя 29, 2016 9:49:17 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:49:17 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:49:17 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:49:17 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:49:17 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:49:18 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:49:18 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:49:18 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:49:18 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:49:18 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.bookings1
+ноя 29, 2016 9:49:18 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [booking_id, data, sum, customer_id]
+ноя 29, 2016 9:49:18 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [customers_fk, fk1f527437cbef5077]
+ноя 29, 2016 9:49:18 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [bookings1_pkey]
+ноя 29, 2016 9:49:18 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:49:18 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:49:18 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:49:18 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:49:18 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:49:18 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:49:18 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:49:18 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:49:18 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:49:18 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.characteristics1
+ноя 29, 2016 9:49:18 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [weight, color, characteristic_id, size]
+ноя 29, 2016 9:49:18 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+ноя 29, 2016 9:49:18 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [characteristics1_pkey]
+ноя 29, 2016 9:49:18 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:49:18 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:49:18 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:49:18 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:49:18 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:49:18 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:49:18 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:49:18 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:49:18 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:49:18 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:49:18 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.customers1
+ноя 29, 2016 9:49:18 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [first_name, phone, email, last_name, password, admin_mode, customer_id]
+ноя 29, 2016 9:49:18 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+ноя 29, 2016 9:49:18 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [customers1_pkey]
+ноя 29, 2016 9:49:18 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:49:18 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:49:18 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:49:18 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:49:18 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:49:19 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:49:19 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:49:19 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:49:19 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:49:19 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.products1
+ноя 29, 2016 9:49:19 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [product_id, name, prize, characteristic_id, category_id, product_availability]
+ноя 29, 2016 9:49:19 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk67666b4d65573ab8, products_fk3, products_fk1, fk67666b4df4903afd]
+ноя 29, 2016 9:49:19 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [products1_pkey]
+ноя 29, 2016 9:49:19 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:49:19 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:49:19 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:49:19 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:49:19 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:49:19 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:49:19 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:49:19 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:49:19 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:49:19 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.categories1
+ноя 29, 2016 9:49:19 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [catrgory_id, category_name, parent_id]
+ноя 29, 2016 9:49:19 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+ноя 29, 2016 9:49:19 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [categories1_pkey]
+ноя 29, 2016 9:49:19 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:49:19 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:49:19 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:49:19 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:49:19 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:49:19 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:49:19 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:49:19 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:49:19 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:49:19 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:49:19 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.matcher1
+ноя 29, 2016 9:49:19 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [matcher_id, product_id, booking_id]
+ноя 29, 2016 9:49:19 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk11b29d3f97c911af, fk11b29d3f6f051f5b, matcher_fk1, matcher_fk2]
+ноя 29, 2016 9:49:19 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [matcher1_pkey]
+ноя 29, 2016 9:49:19 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+ноя 29, 2016 9:50:01 PM org.hibernate.cfg.Configuration configure
+INFO: configuring from resource: /hibernate.cfg.xml
+ноя 29, 2016 9:50:01 PM org.hibernate.cfg.Configuration getConfigurationInputStream
+INFO: Configuration resource: /hibernate.cfg.xml
+ноя 29, 2016 9:50:01 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : BookingsEntity.hbm.xml
+ноя 29, 2016 9:50:02 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : CategoriesEntity.hbm.xml
+ноя 29, 2016 9:50:02 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : CharacteristicsEntity.hbm.xml
+ноя 29, 2016 9:50:03 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : CustomersEntity.hbm.xml
+ноя 29, 2016 9:50:04 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : ProductsEntity.hbm.xml
+ноя 29, 2016 9:50:05 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : MatcherEntity.hbm.xml
+ноя 29, 2016 9:50:05 PM org.hibernate.cfg.Configuration doConfigure
+INFO: Configured SessionFactory: null
+ноя 29, 2016 9:50:05 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.BookingsEntity -> BOOKINGS1
+ноя 29, 2016 9:50:05 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.CategoriesEntity -> categories1
+ноя 29, 2016 9:50:05 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.CharacteristicsEntity -> CHARACTERISTICS1
+ноя 29, 2016 9:50:05 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.CustomersEntity -> CUSTOMERS1
+ноя 29, 2016 9:50:05 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.ProductsEntity -> PRODUCTS1
+ноя 29, 2016 9:50:05 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.MatcherEntity -> matcher1
+ноя 29, 2016 9:50:05 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:50:05 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:50:05 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:50:05 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:50:05 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:50:05 PM org.hibernate.connection.DriverManagerConnectionProvider close
+INFO: cleaning up connection pool: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:50:05 PM org.hibernate.connection.DriverManagerConnectionProvider close
+INFO: cleaning up connection pool: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:50:05 PM org.hibernate.connection.DriverManagerConnectionProvider close
+INFO: cleaning up connection pool: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:50:05 PM org.hibernate.connection.DriverManagerConnectionProvider close
+INFO: cleaning up connection pool: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:50:05 PM org.hibernate.connection.DriverManagerConnectionProvider close
+INFO: cleaning up connection pool: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:50:05 PM org.hibernate.connection.DriverManagerConnectionProvider close
+INFO: cleaning up connection pool: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:50:06 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:50:06 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:50:06 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:50:06 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:50:06 PM org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+ноя 29, 2016 9:50:06 PM org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+ноя 29, 2016 9:50:06 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+ноя 29, 2016 9:50:06 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+ноя 29, 2016 9:50:06 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+ноя 29, 2016 9:50:06 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:50:06 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:50:06 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:50:06 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:50:06 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:50:06 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:50:06 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:50:06 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:50:06 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:50:06 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.bookings1
+ноя 29, 2016 9:50:06 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [booking_id, data, sum, customer_id]
+ноя 29, 2016 9:50:06 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [customers_fk, fk1f527437cbef5077]
+ноя 29, 2016 9:50:06 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [bookings1_pkey]
+ноя 29, 2016 9:50:06 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:50:06 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:50:06 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:50:06 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:50:06 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:50:06 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:50:06 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:50:06 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:50:06 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:50:06 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:50:06 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.characteristics1
+ноя 29, 2016 9:50:06 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [weight, color, characteristic_id, size]
+ноя 29, 2016 9:50:06 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+ноя 29, 2016 9:50:06 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [characteristics1_pkey]
+ноя 29, 2016 9:50:06 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:50:06 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:50:06 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:50:06 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:50:06 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:50:07 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:50:07 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:50:07 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:50:07 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:50:07 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.customers1
+ноя 29, 2016 9:50:07 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [first_name, phone, email, last_name, password, admin_mode, customer_id]
+ноя 29, 2016 9:50:07 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+ноя 29, 2016 9:50:07 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [customers1_pkey]
+ноя 29, 2016 9:50:07 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:50:07 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:50:07 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:50:07 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:50:07 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:50:07 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:50:07 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:50:07 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:50:07 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:50:07 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.products1
+ноя 29, 2016 9:50:07 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [product_id, name, prize, characteristic_id, category_id, product_availability]
+ноя 29, 2016 9:50:07 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk67666b4d65573ab8, products_fk3, products_fk1, fk67666b4df4903afd]
+ноя 29, 2016 9:50:07 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [products1_pkey]
+ноя 29, 2016 9:50:07 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:50:07 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:50:07 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:50:07 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:50:07 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:50:07 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:50:07 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:50:07 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:50:07 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:50:07 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:50:07 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.categories1
+ноя 29, 2016 9:50:07 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [catrgory_id, category_name, parent_id]
+ноя 29, 2016 9:50:07 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+ноя 29, 2016 9:50:07 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [categories1_pkey]
+ноя 29, 2016 9:50:07 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:50:07 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:50:07 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:50:07 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:50:07 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:50:08 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:50:08 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:50:08 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:50:08 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:50:08 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:50:08 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.matcher1
+ноя 29, 2016 9:50:08 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [matcher_id, product_id, booking_id]
+ноя 29, 2016 9:50:08 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk11b29d3f97c911af, fk11b29d3f6f051f5b, matcher_fk1, matcher_fk2]
+ноя 29, 2016 9:50:08 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [matcher1_pkey]
+ноя 29, 2016 9:50:08 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+ноя 29, 2016 9:54:19 PM org.hibernate.cfg.Configuration configure
+INFO: configuring from resource: /hibernate.cfg.xml
+ноя 29, 2016 9:54:19 PM org.hibernate.cfg.Configuration getConfigurationInputStream
+INFO: Configuration resource: /hibernate.cfg.xml
+ноя 29, 2016 9:54:19 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : BookingsEntity.hbm.xml
+ноя 29, 2016 9:54:21 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : CategoriesEntity.hbm.xml
+ноя 29, 2016 9:54:21 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : CharacteristicsEntity.hbm.xml
+ноя 29, 2016 9:54:22 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : CustomersEntity.hbm.xml
+ноя 29, 2016 9:54:23 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : ProductsEntity.hbm.xml
+ноя 29, 2016 9:54:23 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : MatcherEntity.hbm.xml
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.Configuration doConfigure
+INFO: Configured SessionFactory: null
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.BookingsEntity -> BOOKINGS1
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.CategoriesEntity -> categories1
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.CharacteristicsEntity -> CHARACTERISTICS1
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.CustomersEntity -> CUSTOMERS1
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.ProductsEntity -> PRODUCTS1
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.MatcherEntity -> matcher1
+ноя 29, 2016 9:54:24 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:54:24 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:54:24 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:54:24 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:24 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:54:24 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:54:24 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:54:24 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:24 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:54:24 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:54:24 PM org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+ноя 29, 2016 9:54:24 PM org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+ноя 29, 2016 9:54:24 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+ноя 29, 2016 9:54:24 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+ноя 29, 2016 9:54:24 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+ноя 29, 2016 9:54:24 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:54:24 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:54:24 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:54:24 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:24 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:54:25 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:54:25 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:54:25 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:25 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:54:25 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.bookings1
+ноя 29, 2016 9:54:25 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [booking_id, data, sum, customer_id]
+ноя 29, 2016 9:54:25 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [customers_fk, fk1f527437cbef5077]
+ноя 29, 2016 9:54:25 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [bookings1_pkey]
+ноя 29, 2016 9:54:25 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:54:25 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:54:25 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:54:25 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:25 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:54:25 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:54:25 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:54:25 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:25 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:54:25 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.characteristics1
+ноя 29, 2016 9:54:25 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [weight, color, characteristic_id, size]
+ноя 29, 2016 9:54:25 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+ноя 29, 2016 9:54:25 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [characteristics1_pkey]
+ноя 29, 2016 9:54:25 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:54:25 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:54:25 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:54:25 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:25 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:54:25 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:54:25 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:54:25 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:25 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:54:25 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:54:26 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.customers1
+ноя 29, 2016 9:54:26 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [first_name, phone, email, last_name, password, admin_mode, customer_id]
+ноя 29, 2016 9:54:26 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+ноя 29, 2016 9:54:26 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [customers1_pkey]
+ноя 29, 2016 9:54:26 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:54:26 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:54:26 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:54:26 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:26 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:54:26 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:54:26 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:54:26 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:26 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:54:26 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.products1
+ноя 29, 2016 9:54:26 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [product_id, name, prize, characteristic_id, category_id, product_availability]
+ноя 29, 2016 9:54:26 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk67666b4d65573ab8, products_fk3, products_fk1, fk67666b4df4903afd]
+ноя 29, 2016 9:54:26 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [products1_pkey]
+ноя 29, 2016 9:54:26 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:54:26 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:54:26 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:54:26 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:26 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:54:26 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:54:26 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:54:26 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:26 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:54:26 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.categories1
+ноя 29, 2016 9:54:26 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [catrgory_id, category_name, parent_id]
+ноя 29, 2016 9:54:26 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+ноя 29, 2016 9:54:26 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [categories1_pkey]
+ноя 29, 2016 9:54:26 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:54:26 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:54:26 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:54:26 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:26 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:54:26 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:54:26 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:54:26 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:26 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:54:26 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:54:26 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.matcher1
+ноя 29, 2016 9:54:26 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [matcher_id, product_id, booking_id]
+ноя 29, 2016 9:54:26 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk11b29d3f97c911af, fk11b29d3f6f051f5b, matcher_fk1, matcher_fk2]
+ноя 29, 2016 9:54:26 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [matcher1_pkey]
+ноя 29, 2016 9:54:26 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+ноя 29, 2016 9:54:40 PM org.hibernate.cfg.Configuration configure
+INFO: configuring from resource: /hibernate.cfg.xml
+ноя 29, 2016 9:54:40 PM org.hibernate.cfg.Configuration getConfigurationInputStream
+INFO: Configuration resource: /hibernate.cfg.xml
+ноя 29, 2016 9:54:40 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : BookingsEntity.hbm.xml
+ноя 29, 2016 9:54:42 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : CategoriesEntity.hbm.xml
+ноя 29, 2016 9:54:42 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : CharacteristicsEntity.hbm.xml
+ноя 29, 2016 9:54:43 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : CustomersEntity.hbm.xml
+ноя 29, 2016 9:54:44 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : ProductsEntity.hbm.xml
+ноя 29, 2016 9:54:45 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : MatcherEntity.hbm.xml
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.Configuration doConfigure
+INFO: Configured SessionFactory: null
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.BookingsEntity -> BOOKINGS1
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.CategoriesEntity -> categories1
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.CharacteristicsEntity -> CHARACTERISTICS1
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.CustomersEntity -> CUSTOMERS1
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.ProductsEntity -> PRODUCTS1
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.MatcherEntity -> matcher1
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:54:46 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:54:46 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:54:46 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:46 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:54:46 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:54:46 PM org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider close
+INFO: cleaning up connection pool: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider close
+INFO: cleaning up connection pool: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider close
+INFO: cleaning up connection pool: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider close
+INFO: cleaning up connection pool: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider close
+INFO: cleaning up connection pool: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider close
+INFO: cleaning up connection pool: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider close
+INFO: cleaning up connection pool: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider close
+INFO: cleaning up connection pool: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider close
+INFO: cleaning up connection pool: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider close
+INFO: cleaning up connection pool: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider close
+INFO: cleaning up connection pool: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider close
+INFO: cleaning up connection pool: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:46 PM org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+ноя 29, 2016 9:54:46 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+ноя 29, 2016 9:54:46 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+ноя 29, 2016 9:54:46 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:46 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:54:47 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:54:47 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:54:47 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:47 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:54:47 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.bookings1
+ноя 29, 2016 9:54:47 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [booking_id, data, sum, customer_id]
+ноя 29, 2016 9:54:47 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [customers_fk, fk1f527437cbef5077]
+ноя 29, 2016 9:54:47 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [bookings1_pkey]
+ноя 29, 2016 9:54:47 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:54:47 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:54:47 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:54:47 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:47 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:54:47 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:54:47 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:54:47 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:47 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:54:47 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.characteristics1
+ноя 29, 2016 9:54:47 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [weight, color, characteristic_id, size]
+ноя 29, 2016 9:54:47 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+ноя 29, 2016 9:54:47 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [characteristics1_pkey]
+ноя 29, 2016 9:54:47 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:54:47 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:54:47 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:54:47 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:47 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:54:47 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:54:47 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:54:47 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:47 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:54:47 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:54:47 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.customers1
+ноя 29, 2016 9:54:47 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [first_name, phone, email, last_name, password, admin_mode, customer_id]
+ноя 29, 2016 9:54:47 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+ноя 29, 2016 9:54:47 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [customers1_pkey]
+ноя 29, 2016 9:54:47 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:54:47 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:54:47 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:54:47 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:47 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:54:48 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:54:48 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:54:48 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:48 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:54:48 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.products1
+ноя 29, 2016 9:54:48 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [product_id, name, prize, characteristic_id, category_id, product_availability]
+ноя 29, 2016 9:54:48 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk67666b4d65573ab8, products_fk3, products_fk1, fk67666b4df4903afd]
+ноя 29, 2016 9:54:48 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [products1_pkey]
+ноя 29, 2016 9:54:48 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:54:48 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:54:48 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:54:48 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:48 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:54:48 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:54:48 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:54:48 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:48 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:54:48 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.categories1
+ноя 29, 2016 9:54:48 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [catrgory_id, category_name, parent_id]
+ноя 29, 2016 9:54:48 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+ноя 29, 2016 9:54:48 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [categories1_pkey]
+ноя 29, 2016 9:54:48 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:54:48 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:54:48 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:54:48 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:54:48 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:54:48 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:54:48 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:54:48 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:48 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:54:48 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:54:48 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.matcher1
+ноя 29, 2016 9:54:48 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [matcher_id, product_id, booking_id]
+ноя 29, 2016 9:54:48 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk11b29d3f97c911af, fk11b29d3f6f051f5b, matcher_fk1, matcher_fk2]
+ноя 29, 2016 9:54:48 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [matcher1_pkey]
+ноя 29, 2016 9:54:48 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+ноя 29, 2016 9:54:57 PM org.hibernate.cfg.Configuration configure
+INFO: configuring from resource: /hibernate.cfg.xml
+ноя 29, 2016 9:54:57 PM org.hibernate.cfg.Configuration getConfigurationInputStream
+INFO: Configuration resource: /hibernate.cfg.xml
+ноя 29, 2016 9:54:58 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : BookingsEntity.hbm.xml
+ноя 29, 2016 9:54:59 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : CategoriesEntity.hbm.xml
+ноя 29, 2016 9:55:00 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : CharacteristicsEntity.hbm.xml
+ноя 29, 2016 9:55:00 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : CustomersEntity.hbm.xml
+ноя 29, 2016 9:55:01 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : ProductsEntity.hbm.xml
+ноя 29, 2016 9:55:02 PM org.hibernate.cfg.Configuration addResource
+INFO: Reading mappings from resource : MatcherEntity.hbm.xml
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.Configuration doConfigure
+INFO: Configured SessionFactory: null
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.BookingsEntity -> BOOKINGS1
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.CategoriesEntity -> categories1
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.CharacteristicsEntity -> CHARACTERISTICS1
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.CustomersEntity -> CUSTOMERS1
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.ProductsEntity -> PRODUCTS1
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.HbmBinder bindRootPersistentClassCommonValues
+INFO: Mapping class: base.MatcherEntity -> matcher1
+ноя 29, 2016 9:55:03 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:55:03 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:55:03 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:55:03 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:55:03 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:55:03 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:55:03 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:55:03 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:55:03 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:55:03 PM org.hibernate.impl.SessionFactoryImpl <init>
+INFO: building session factory
+ноя 29, 2016 9:55:03 PM org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+ноя 29, 2016 9:55:03 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+ноя 29, 2016 9:55:03 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+ноя 29, 2016 9:55:03 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+ноя 29, 2016 9:55:03 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:55:03 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:55:03 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:55:03 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:55:03 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:55:03 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:55:03 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:55:03 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:55:03 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:55:03 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:55:03 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.bookings1
+ноя 29, 2016 9:55:03 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [booking_id, data, sum, customer_id]
+ноя 29, 2016 9:55:03 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [customers_fk, fk1f527437cbef5077]
+ноя 29, 2016 9:55:03 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [bookings1_pkey]
+ноя 29, 2016 9:55:03 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:55:03 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:55:03 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:55:03 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:55:03 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:55:04 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:55:04 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:55:04 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:55:04 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:55:04 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.characteristics1
+ноя 29, 2016 9:55:04 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [weight, color, characteristic_id, size]
+ноя 29, 2016 9:55:04 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+ноя 29, 2016 9:55:04 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [characteristics1_pkey]
+ноя 29, 2016 9:55:04 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:55:04 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:55:04 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:55:04 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:55:04 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:55:04 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:55:04 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:55:04 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:55:04 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:55:04 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.customers1
+ноя 29, 2016 9:55:04 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [first_name, phone, email, last_name, password, admin_mode, customer_id]
+ноя 29, 2016 9:55:04 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+ноя 29, 2016 9:55:04 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [customers1_pkey]
+ноя 29, 2016 9:55:04 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:55:04 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:55:04 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:55:04 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:55:04 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:55:04 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:55:04 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:55:04 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:55:04 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:55:04 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:55:04 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.products1
+ноя 29, 2016 9:55:04 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [product_id, name, prize, characteristic_id, category_id, product_availability]
+ноя 29, 2016 9:55:04 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk67666b4d65573ab8, products_fk3, products_fk1, fk67666b4df4903afd]
+ноя 29, 2016 9:55:04 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [products1_pkey]
+ноя 29, 2016 9:55:04 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:55:04 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:55:04 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:55:04 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:55:04 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:55:05 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:55:05 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:55:05 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:55:05 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:55:05 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.categories1
+ноя 29, 2016 9:55:05 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [catrgory_id, category_name, parent_id]
+ноя 29, 2016 9:55:05 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: []
+ноя 29, 2016 9:55:05 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [categories1_pkey]
+ноя 29, 2016 9:55:05 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Using Hibernate built-in connection pool (not for production use!)
+ноя 29, 2016 9:55:05 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: Hibernate connection pool size: 20
+ноя 29, 2016 9:55:05 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: autocommit mode: false
+ноя 29, 2016 9:55:05 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: using driver: org.postgresql.Driver at URL: jdbc:postgresql://localhost:5432/postgres
+ноя 29, 2016 9:55:05 PM org.hibernate.connection.DriverManagerConnectionProvider configure
+INFO: connection properties: {user=postgres, password=****}
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: RDBMS: PostgreSQL, version: 9.3.3
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 9.0 JDBC3 (build 801)
+ноя 29, 2016 9:55:05 PM org.hibernate.dialect.Dialect <init>
+INFO: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+ноя 29, 2016 9:55:05 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Using default transaction strategy (direct JDBC transactions)
+ноя 29, 2016 9:55:05 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch size: 15
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC batch updates for versioned data: disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+ноя 29, 2016 9:55:05 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory <init>
+INFO: Using ASTQueryTranslatorFactory
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {}
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory createCacheProvider
+INFO: Cache provider: org.hibernate.cache.NoCacheProvider
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+ноя 29, 2016 9:55:05 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+ноя 29, 2016 9:55:05 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: table found: public.matcher1
+ноя 29, 2016 9:55:05 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: columns: [matcher_id, product_id, booking_id]
+ноя 29, 2016 9:55:05 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: foreign keys: [fk11b29d3f97c911af, fk11b29d3f6f051f5b, matcher_fk1, matcher_fk2]
+ноя 29, 2016 9:55:05 PM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: indexes: [matcher1_pkey]
+ноя 29, 2016 9:55:05 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+Exception in thread "main" org.hibernate.TransientObjectException: object references an unsaved transient instance - save the transient instance before flushing: base.CustomersEntity
+	at org.hibernate.engine.ForeignKeys.getEntityIdentifierIfNotUnsaved(ForeignKeys.java:219)
+	at org.hibernate.type.EntityType.getIdentifier(EntityType.java:397)
+	at org.hibernate.type.ManyToOneType.isDirty(ManyToOneType.java:242)
+	at org.hibernate.type.TypeFactory.findDirty(TypeFactory.java:563)
+	at org.hibernate.persister.entity.AbstractEntityPersister.findDirty(AbstractEntityPersister.java:3071)
+	at org.hibernate.event.def.DefaultFlushEntityEventListener.dirtyCheck(DefaultFlushEntityEventListener.java:472)
+	at org.hibernate.event.def.DefaultFlushEntityEventListener.isUpdateNecessary(DefaultFlushEntityEventListener.java:197)
+	at org.hibernate.event.def.DefaultFlushEntityEventListener.onFlushEntity(DefaultFlushEntityEventListener.java:120)
+	at org.hibernate.event.def.AbstractFlushingEventListener.flushEntities(AbstractFlushingEventListener.java:196)
+	at org.hibernate.event.def.AbstractFlushingEventListener.flushEverythingToExecutions(AbstractFlushingEventListener.java:76)
+	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:26)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1000)
+	at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:338)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:106)
+	at wrap.BookingDAO.save(BookingDAO.java:21)
+	at service.BookingAdd.bookingSave(BookingAdd.java:45)
+	at service.BookingAdd.BookingSet(BookingAdd.java:37)
+	at work.User.buy(User.java:82)
+	at work.ConsoleInterface.buyProductParser(ConsoleInterface.java:191)
+	at work.ConsoleInterface.buyParser(ConsoleInterface.java:140)
+	at work.ConsoleInterface.firstParser(ConsoleInterface.java:114)
+	at work.ConsoleInterface.enterCommand(ConsoleInterface.java:71)
+	at work.ConsoleInterface.authentication(ConsoleInterface.java:53)
+	at wrap.Main.main(Main.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)

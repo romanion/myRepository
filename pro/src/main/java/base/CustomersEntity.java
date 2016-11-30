@@ -8,6 +8,7 @@ import java.math.BigInteger;
  */
 @Entity
 @Table(name = "CUSTOMERS1", schema = "public", catalog = "postgres")
+
 public class CustomersEntity {
     private long customerId;
     private String lastName;
@@ -19,7 +20,6 @@ public class CustomersEntity {
 
 
     @Id
-    @GeneratedValue(strategy=GenerationType.TABLE)
     @Column(name = "CUSTOMER_ID", nullable = false, precision = 0)
     public long getCustomerId() {
         return customerId;

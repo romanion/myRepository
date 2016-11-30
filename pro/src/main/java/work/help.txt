@@ -1,0 +1,8 @@
+--------------------------------------------------------
+find products - search products by your criteria       -
+buy products - place your order                        -
+add product - add product to your basket               -
+delete product - delete product from your basket       -
+show bills - print all your bills                      -
+show information - print information from your account -
+---------------------------------------------------------

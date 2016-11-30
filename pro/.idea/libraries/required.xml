@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="required">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/Downloads/hibernate-release-5.1.2.Final.zip!/hibernate-release-5.1.2.Final/lib/required" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

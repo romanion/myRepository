@@ -22,27 +22,33 @@ public class BookingAdd {
         myBookingDAO = new BookingDAO();
         myBookingEntity = new BookingsEntity();
        myMatcherDAO = new MatcherDAO();
-       myMatcherDAO  = new MatcherDAO();
+       myMatcherEntity  = new MatcherEntity();
 
 
    }
 
-    public void BookingSet(int sum, Date date,  List<ProductsEntity> productsEntity, CustomersEntity customersEntity){
+    public void BookingSet(int sum, String date,  List<ProductsEntity> productsEntity, CustomersEntity customersEntity){
         List<BookingsEntity> bookingsEntities = new ArrayList<BookingsEntity>();
+
+        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+        session.beginTransaction();
         for(int i=0;i<productsEntity.size();i++) {
+
             myBookingEntity.setCustomersByCustomerId(customersEntity);
-          //  myBookingEntity.setData((java.sql.Date) date);
+            myBookingEntity.setData(date);
             myBookingEntity.setSum(BigInteger.valueOf(sum));
             bookingsEntities.add(this.myBookingEntity);
-            this.bookingSave();
+          //  this.bookingSave(session, customersEntity);
+        session.createSQLQuery("into BOOKINGS1 (SUM, DATA, CUSTOMER_ID, BOOKING_ID) values ('1100', '30.11.2016', 0, 2)");
         }
-
-
+       session.getTransaction().commit();
+       //     matcherSet(productsEntity, bookingsEntities);
     }
 
-    public void bookingSave( ) {
-
-        myBookingDAO.save(myBookingEntity);
+    public void bookingSave(Session session, CustomersEntity customersEntity ) {
+        session.save(myBookingEntity);
+        session.saveOrUpdate(customersEntity);
+        // myBookingDAO.save(myBookingEntity);
     }
 
     public void matcherSet(List<ProductsEntity> productsEntity, List<BookingsEntity> bookingsEntities){

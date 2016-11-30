@@ -17,7 +17,7 @@ public class ProductsAdd {
    private CharacteristicsDAO characteristicsDAO = null;
     CategoriesDAO categoriesDAO = null;
 
-    ProductsAdd(){
+    public ProductsAdd(){
         this.characteristicsDAO = new CharacteristicsDAO();
         this.categoriesDAO = new CategoriesDAO();
         this.productsDAO = new ProductsDAO();
@@ -26,7 +26,7 @@ public class ProductsAdd {
     public void categoriesSet(int id, String name, int pid ){
         CategoriesEntity categoriesEntity = new CategoriesEntity();
 
-            categoriesEntity.setCategoryId(id);
+           // categoriesEntity.setCategoryId(id);
             categoriesEntity.setCatrgoryName(name);
             categoriesEntity.setParentId(BigInteger.valueOf(pid));
 
@@ -43,7 +43,7 @@ public class ProductsAdd {
     public void characteristicsSet(int id, String color, double size, double weight){
         CharacteristicsEntity characteristicsEntity = new CharacteristicsEntity();
 
-            characteristicsEntity.setCharacteristicId(id);
+        //    characteristicsEntity.setCharacteristicId(id);
             characteristicsEntity.setColor(color);
             characteristicsEntity.setSize(Double.valueOf(size));
             characteristicsEntity.setWeight(Double.valueOf(weight));
@@ -64,7 +64,7 @@ public class ProductsAdd {
 
             productsEntity.setProductAvailability(ava);
         productsEntity.setPrize(BigInteger.valueOf(prize));
-        productsEntity.setProductId(id);
+     //   productsEntity.setProductId(id);
         productsEntity.setName(name);
 
             productsEntity.setCategoriesByCategoryId(this.myCategoriesEntity);

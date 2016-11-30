@@ -11,7 +11,7 @@ import java.sql.Date;
 @Table(name = "BOOKINGS1", schema = "public", catalog = "postgres")
 public class BookingsEntity {
     private BigInteger sum;
-    private Date data;
+    private String data;
 
     private long bookingId;
 
@@ -29,11 +29,11 @@ public class BookingsEntity {
 
     @Basic
     @Column(name = "DATA", nullable = true)
-    public Date getData() {
+    public String  getData() {
         return data;
     }
 
-    public void setData(Date data) {
+    public void setData(String data) {
         this.data = data;
     }
 

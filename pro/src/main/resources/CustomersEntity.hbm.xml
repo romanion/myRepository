@@ -6,7 +6,8 @@
 
     <class name="base.CustomersEntity" table="CUSTOMERS1" schema="public" catalog="postgres">
         <id name="customerId">
-            <column name="CUSTOMER_ID" sql-type="integer" />
+            <column name="CUSTOMER_ID" sql-type="integer" not-null="true"  />
+            <generator class="increment"/>
         </id>
         <property name="lastName">
             <column name="LAST_NAME" sql-type="varchar(20)" length="20"/>

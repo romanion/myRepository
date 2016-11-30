@@ -6,20 +6,20 @@ import javax.persistence.*;
  * Created by Роман on 27.11.2016.
  */
 @Entity
-@Table(name = "matcher", schema = "public", catalog = "postgres")
+@Table(name = "matcher1", schema = "public", catalog = "postgres")
 public class MatcherEntity {
-    private Integer matcherId;
+    private long matcherId;
     private ProductsEntity productsByProductId;
     private BookingsEntity bookingsByBookingId;
 
     @Id
-    @GeneratedValue(strategy=GenerationType.TABLE)
+//    @GeneratedValue(strategy=GenerationType.IDENTITY)
     @Column(name = "matcher_id", nullable = false)
-    public Integer getMatcherId() {
+    public long getMatcherId() {
         return matcherId;
     }
 
-    public void setMatcherId(Integer matcherId) {
+    public void setMatcherId(long matcherId) {
         this.matcherId = matcherId;
     }
 
@@ -50,13 +50,13 @@ public class MatcherEntity {
 
         MatcherEntity that = (MatcherEntity) o;
 
-        if (matcherId != null ? !matcherId.equals(that.matcherId) : that.matcherId != null) return false;
+     //   if (matcherId != null ? !matcherId.equals(that.matcherId) : that.matcherId != null) return false;
 
         return true;
     }
 
-    @Override
-    public int hashCode() {
-        return matcherId != null ? matcherId.hashCode() : 0;
-    }
+//    @Override
+//    public int hashCode() {
+//        return matcherId != null ? matcherId.hashCode() : 0;
+//    }
 }

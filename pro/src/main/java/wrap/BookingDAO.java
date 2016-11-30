@@ -18,6 +18,7 @@ public class BookingDAO implements BookingInt {
         Session session = getNewSession();;
         session.beginTransaction();
         session.save(bookingEntity);
+
         session.getTransaction().commit();
     }
     @Override

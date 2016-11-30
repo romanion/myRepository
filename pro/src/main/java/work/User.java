@@ -1,10 +1,12 @@
 package work;
 import base.*;
+import org.hibernate.Session;
 import wrap.*;
 import service.*;
 import HibernateUtil.*;
 
 import java.io.*;
+import java.text.DateFormat;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -16,11 +18,14 @@ import static java.lang.System.in;
  */
 public class User {
     private List<ProductsEntity> basket = null;
-    private CustomersEntity myUser = null;
-    private String email;
+    public CustomersEntity myUser;
+   public String email;
     private String password;
     private boolean adminMode = false;
 
+    public CustomersEntity getMyUser(){
+        return  this.myUser;
+    }
 
 
     public void addProdToBasket(long id) throws NullPointerException{
@@ -67,7 +72,7 @@ public class User {
         userAdd.consumerSet(phone.length(), lastName, firstName, false, phone, email, password);
     }
 
-  public void buy(){
+  public void buy(User user){
         int sum;
         sum = calculateSum();
         if(sum==0){
@@ -75,7 +80,11 @@ public class User {
         }
         else{
             BookingAdd bookingAdd = new BookingAdd();
-            bookingAdd.BookingSet(sum, new Date(), this.basket, myUser);
+            DateFormat form = DateFormat.getDateInstance(DateFormat.MEDIUM);
+            Calendar calendar = new GregorianCalendar();
+            if(user.myUser==null) System.out.println("0099090990999090000000000000000000000000000");
+            else System.out.println(this.myUser.getLastName());
+            bookingAdd.BookingSet(sum, form.format(calendar.getTime()), this.basket, user.myUser);
 
         }
 
@@ -111,6 +120,7 @@ public class User {
             this.password = matcher2.group(1);
 
             this.myUser = Searching.accountControl(this.email, this.password);
+           if(this.myUser==null) System.out.println("PIDR");////////////////////////////////
             if(this.myUser!=null){
                 return checkAdmin();
             }
@@ -126,16 +136,23 @@ public class User {
         }
     }
 
-    public Object checkAdmin(){
-        if(this.myUser.getAdminMode()==true){
-            User admin = new Admin();
-            admin.adminMode = true;
-            return admin;
+    public User checkAdmin(){
+        if(this.myUser.getAdminMode()==true) {
+
+            this.adminMode = true;
+
         }
-        else{
-            return this;
+        return this;
         }
+
+    public User setUserRoot(User user){
+        return user;
     }
+
+    public User setAdminMode(){
+        return new Admin();
+    }
+
     public boolean getAdminMode(){
         return this.adminMode;
     }
@@ -144,10 +161,10 @@ public class User {
 
         switch(criteria){
             case "name":
-                print(Searching.searchingByName(value));
+                Searching.searchingByName(value);
                 break;
             case "category":
-                print(Searching.searchingByCategory(value));
+                Searching.searchingByCategory(value);
                 break;
             case "property":
                 break;
@@ -155,21 +172,7 @@ public class User {
 
     }
 
-    public void print(List<ProductsEntity> productsEntities) {
-        if (productsEntities.size() > 0) {
-            System.out.println("id    name     prize");
-            for (int i = 0; i < productsEntities.size(); i++) {
-                System.out.println(productsEntities.get(i).getProductId() + "||" +
-                        productsEntities.get(i).getName() + "||" +
-                        productsEntities.get(i).getPrize() + "rub.||"/* +
-                        productsEntities.get(i).getCharacteristicsByCharacteristicId().getColor() + "||" +
-                        productsEntities.get(i).getCharacteristicsByCharacteristicId().getSize() + "||" +
-                        productsEntities.get(i).getCharacteristicsByCharacteristicId().getWeight() + "||"*/);
-            }
-        }
-        else{
-            System.out.println("Nothing found");
-        }
-    }
+
+
 
 }

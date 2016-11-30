@@ -15,8 +15,8 @@ public class CharacteristicsEntity {
     private Double weight;
 
     @Id
-    @GeneratedValue(strategy=GenerationType.TABLE)
-    @Column(name = "CHARACTERISTIC_ID", nullable = false, precision = 0)
+   /* @GeneratedValue(strategy=GenerationType.TABLE)
+    @Column(name = "CHARACTERISTIC_ID", nullable = false, precision = 0)*/
     public long getCharacteristicId() {
         return characteristicId;
     }

@@ -14,8 +14,8 @@ public class CategoriesEntity {
     private BigInteger parentId;
 
     @Id
-    @GeneratedValue(strategy=GenerationType.TABLE)
-    @Column(name = "catrgory_id", nullable = false, precision = 0)
+ /*   @GeneratedValue(strategy=GenerationType.TABLE)
+    @Column(name = "catrgory_id", nullable = false, precision = 0)*/
     public long getCategoryId() {
         return categoryId;
     }

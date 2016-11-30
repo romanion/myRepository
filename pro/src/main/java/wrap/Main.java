@@ -8,6 +8,9 @@ import service.*;
 
 import java.io.IOException;
 import java.math.BigInteger;
+import java.text.DateFormat;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.List;
 import work.*;
 /**
@@ -17,14 +20,19 @@ public class Main {
 
     public static void main(String args[]) throws IOException {
 
-      /*  User user = new User();
-
+      /*User user = new User();
         user.createUser();*/
+    //  Searching.searchingBildByUser(0);
 
-       ConsoleInterface consoleInterface = new ConsoleInterface();
-       consoleInterface.authentication();
-
-     /*   User user = new User();
+//
+     /*  ProductsAdd productsAdd = new ProductsAdd();
+        productsAdd.categoriesSet(7, "shoe", 2);
+        productsAdd.characteristicsSet(3, "red", 43, 0.5);
+        productsAdd.productsSet(1, "gogo", 1200, true);
+*/
+        ConsoleInterface consoleInterface = new ConsoleInterface();
+      consoleInterface.authentication();
+     /*  User user = new User();
         user.createUser();*/
 //     Searching sea = new Searching();
 //        System.out.println(sea.searchingByCategory("trus").get(0).getName());

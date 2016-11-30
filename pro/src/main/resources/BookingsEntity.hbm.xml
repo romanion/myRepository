@@ -7,17 +7,19 @@
     <class name="base.BookingsEntity" table="BOOKINGS1" schema="public" catalog="postgres">
         <id name="bookingId">
             <column name="BOOKING_ID" sql-type="integer" />
+            <generator class="increment"/>
         </id>
         <property name="sum">
             <column name="SUM" sql-type="numeric" precision="-1" not-null="true"/>
         </property>
 
         <property name="data">
-            <column name="DATA" sql-type="date" not-null="true"/>
+            <column name="DATA" sql-type="varchar(30)" length="30"/>
         </property>
 
 
-        <many-to-one name="customersByCustomerId" class="base.CustomersEntity">
+        <many-to-one name="customersByCustomerId" class="base.CustomersEntity" >
+
     <column name="CUSTOMER_ID"/>
 </many-to-one>
 </class>

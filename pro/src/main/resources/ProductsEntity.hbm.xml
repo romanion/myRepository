@@ -7,6 +7,7 @@
     <class name="base.ProductsEntity" table="PRODUCTS1" schema="public" catalog="postgres">
         <id name="productId">
             <column name="PRODUCT_ID" sql-type="integer" />
+            <generator class="increment"/>
         </id>
         <property name="prize">
             <column name="PRIZE" sql-type="numeric" precision="-1"/>

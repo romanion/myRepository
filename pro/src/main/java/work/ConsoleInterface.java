@@ -8,8 +8,11 @@ import java.io.*;
 import java.util.InputMismatchException;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
+import java.util.logging.Level;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import static com.sun.webpane.platform.ConfigManager.log;
 
 /**
  * Created by Роман on 21.11.2016.
@@ -22,6 +25,14 @@ public class ConsoleInterface {
         scanner = new Scanner(System.in);
     }
 
+   /* static {
+        try {
+            System.setErr(new PrintStream(new File("log.txt")));
+        } catch (FileNotFoundException e) {
+            System.out.println("file not exists!");
+        }
+    }*/
+
     public void authentication() throws IOException {
         while (true) {
             User user = new User();
@@ -29,38 +40,40 @@ public class ConsoleInterface {
             Object obj = user.userAuthentication(scanner);
             if (obj != null) {
                 if (((User) obj).getAdminMode()) {
-
                     System.out.println("Do you want get to Administaration mode? y/n \n");
+                    Admin admin = new Admin();
                     answer = scanner.next("(.*?)");
                     if (answer.equalsIgnoreCase("y")) {
-                        enterCommand((Admin) obj);
+                        enterAdminCommand(admin);
                     }
                     {
-                        if (answer.equalsIgnoreCase("n")) enterCommand((User) obj);
+                        if (answer.equalsIgnoreCase("n")) enterUserCommand(admin);
                     }
                 } else {
-                    enterCommand((User) obj);
+                    enterUserCommand(user);
                 }
             }
         }
     }
 
-    public void enterCommand(User user) throws IOException {
+    public void enterUserCommand(User user)  {
         while(true){
+            if(user.email==null) System.out.println("0099090990999090000000000000000000000000000");
+
             System.out.println("Enter command \n" +
                     "or use help (help_me)");
             String buffer = new String();
-            //try{
+
                 buffer =  scanner.next("(.*?)_(.*?)");
-            /*}catch(InputMismatchException ex){
-                throw  new RuntimeException("Error1") ;
-            } catch(NoSuchElementException e){
-                throw  new RuntimeException("Error2") ;
-            }*/
+
             Pattern pattern = Pattern.compile("(.*?)_(.*?)");
             Matcher matcher = pattern.matcher(buffer);
             if(matcher.matches()){
-                firstParser(matcher.group(1), matcher.group(2), user);
+                try {
+                    firstParser(matcher.group(1), matcher.group(2), user);
+                } catch (IOException ex) {
+                    log.log(Level.SEVERE, "Exception: ", ex);
+                }
             }
             else {
                 System.out.println("Your command is incorrect");
@@ -69,17 +82,25 @@ public class ConsoleInterface {
 
     }
 
-    public void showHelpList(/*String path*/) throws IOException {
-        BufferedReader rd = new BufferedReader(new FileReader("D:\\help.txt") );
-        String s;
-        while((s = rd.readLine())!= null) {
-            System.out.println(s);
+    public void showHelpList(/*String path*/)  {
+        BufferedReader rd = null;
+        try {
+            rd = new BufferedReader(new FileReader("C:\\Users\\Роман\\IdeaProjects\\pro\\src\\main\\java\\work\\help.txt") );
+            String s;
+            while((s = rd.readLine())!= null) {
+                System.out.println(s);
+            }
+            rd.close();
+        } catch (FileNotFoundException ex) {
+            log.log(Level.SEVERE, "Exception: ", ex);
+        } catch (IOException e) {
+            log.log(Level.SEVERE, "Exception: ", e);
         }
-        rd.close();
+
     }
-    public void enterCommand(Admin user){
-       System.out.println("You are ADMIN");
-        }
+    public void enterAdminCommand(Admin admin){
+      System.out.println("You are ADMIN");
+       }
 
 
 
@@ -100,6 +121,9 @@ public class ConsoleInterface {
             case "help":
                 showHelpList();
                 break;
+            case "show":
+            showHelpList();
+            break;
         }
     }
 
@@ -110,6 +134,8 @@ public class ConsoleInterface {
                 break;
         }
     }
+
+
     public void buyParser(String secondCom, User user){
         switch(secondCom.toLowerCase()){
             case "products":
@@ -118,6 +144,13 @@ public class ConsoleInterface {
         }
     }
 
+    public void showParser(String secondCom, User user){
+        switch(secondCom.toLowerCase()){
+            case "bills":
+                //showBillsParser(user);
+                break;
+        }
+    }
     public void findParser(String secondCom, User user){
         switch(secondCom.toLowerCase()){
             case "products":
@@ -136,7 +169,7 @@ public class ConsoleInterface {
     }
     public void addProductParser(User user){
        System.out.println("Enter product identification number (ID)");
-       int id = scanner.nextInt();
+       int id = scanner.nextInt();//////////////////exeption
         user.addProdToBasket(id);
 
     }
@@ -157,6 +190,8 @@ public class ConsoleInterface {
     }
 
     public void buyProductParser(User user){
-        user.buy();
+        user.equals(null);
+
+        user.buy(user);
     }
 }

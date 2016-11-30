@@ -20,7 +20,7 @@ public class ProductsEntity {
 
 
     @Id
-    @GeneratedValue(strategy=GenerationType.TABLE)
+//    @GeneratedValue(strategy=GenerationType.TABLE)
     @Column(name = "PRODUCT_ID", nullable = false, precision = 0)
     public long getProductId() {
         return productId;
